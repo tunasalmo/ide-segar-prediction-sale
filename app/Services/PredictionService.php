@@ -8,6 +8,7 @@ use App\Models\Order;
 use App\Models\PredictionRun;
 use App\Models\Product;
 use App\Models\SalesPrediction;
+use App\Models\User;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\DB;
 
@@ -60,6 +61,10 @@ class PredictionService
             // qty per produk per minggu
             $matrix = $this->productWeeklyMatrix($weeks);
             $categoryMatrix = $this->categoryWeeklyMatrix($weeks);
+
+            // Model regresi level toko (flowchart: hitung koefisien a dan b,
+            // bentuk model Y = a + bX dari total qty per minggu).
+            $shop = $this->shopLevelModel($matrix, $weeks);
 
             // qty aktual per produk pada jendela pembanding [dataEnd-H+1, dataEnd]
             $prevWindowStart = $dataEnd->copy()->subDays($horizonDays - 1);
@@ -143,6 +148,9 @@ class PredictionService
                 'status' => 'completed',
                 'data_start' => $dataStart->format('Y-m-d'),
                 'data_end' => $dataEnd->format('Y-m-d'),
+                'model_a' => round($shop['a'], 6),
+                'model_b' => round($shop['b'], 6),
+                'periods_count' => $shop['n'],
                 'predicted_revenue_total' => SalesPrediction::where('prediction_run_id', $run->id)->sum('predicted_revenue'),
                 'predicted_orders_total' => $this->orderForecastSum($weeks, $horizonDays),
                 'accuracy_pct' => $mape !== null ? round(max(100 - $mape, 0), 1) : null,
@@ -247,6 +255,31 @@ class PredictionService
         }
 
         return $matrix;
+    }
+
+    /**
+     * Model regresi level toko: Y = a + b·X dengan Y = total qty per minggu
+     * (semua produk) dan X = indeks minggu 1..n. Koefisien inilah yang
+     * ditampilkan di antarmuka sebagai model sistem usulan.
+     *
+     * @return array{a: float, b: float, n: int, total: float}
+     */
+    private function shopLevelModel(array $matrix, array $weeks): array
+    {
+        $totals = array_fill(0, count($weeks), 0.0);
+        foreach ($matrix as $series) {
+            foreach (array_values($series) as $i => $v) {
+                $totals[$i] += $v;
+            }
+        }
+        [$a, $b] = $this->linreg($totals);
+
+        return [
+            'a' => $a,
+            'b' => $b,
+            'n' => count($weeks),
+            'total' => array_sum($totals),
+        ];
     }
 
     /**
@@ -524,7 +557,7 @@ class PredictionService
 
     private function notify(PredictionRun $run, $products, int $growing, int $priorityCount, ?float $mape): void
     {
-        $users = \App\Models\User::all();
+        $users = User::all();
         if ($users->isEmpty()) {
             return;
         }

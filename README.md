@@ -58,9 +58,11 @@ invoice, stok bahan) **tidak dikarang** — ditampilkan sebagai keterangan.
 
 ## Halaman
 
-Dashboard · Prediksi Penjualan (banner insight, kartu ringkasan, aktual vs
-prediksi, distribusi kategori, produk berpotensi) · Pesanan · Produk (+
-Kategori) · Pelanggan · Laporan (+ ekspor CSV) · Notifikasi · Pengaturan.
+Dashboard · Prediksi Penjualan (banner insight, alur proses sesuai flowchart
+sistem usulan, kartu ringkasan, aktual vs prediksi, distribusi kategori, produk
+berpotensi) · Data Penjualan / Pesanan (kelola data penjualan historis: tambah,
+ubah, hapus, impor CSV) · Produk (+ Kategori) · Pelanggan · Laporan (+ ekspor
+CSV) · Notifikasi · Pengaturan.
 
 ## Struktur penting
 

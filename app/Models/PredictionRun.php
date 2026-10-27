@@ -10,7 +10,8 @@ class PredictionRun extends Model
     protected $fillable = [
         'status', 'horizon_days', 'predicted_revenue_total', 'predicted_orders_total',
         'accuracy_pct', 'data_start', 'data_end',
-        'model_version', 'error', 'started_at', 'finished_at',
+        'model_version', 'model_a', 'model_b', 'periods_count',
+        'error', 'started_at', 'finished_at',
     ];
 
     protected $casts = [

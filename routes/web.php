@@ -16,6 +16,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
 
     Route::get('/prediksi', [PredictionController::class, 'index'])->name('prediksi');
+    Route::post('/prediksi/hitung', [PredictionController::class, 'calculate'])->name('prediksi.hitung');
 
     Route::get('/produk', [ProductController::class, 'index'])->name('produk.index');
     Route::get('/produk/{product}', [ProductController::class, 'show'])->name('produk.show');
@@ -30,6 +31,11 @@ Route::middleware('auth')->group(function () {
     Route::delete('/kategori/{category}', [CategoryController::class, 'destroy'])->name('kategori.destroy');
 
     Route::get('/pesanan', [OrderController::class, 'index'])->name('pesanan.index');
+    Route::get('/pesanan/import/template', [OrderController::class, 'importTemplate'])->name('pesanan.import.template');
+    Route::post('/pesanan/import', [OrderController::class, 'import'])->name('pesanan.import');
+    Route::post('/pesanan', [OrderController::class, 'store'])->name('pesanan.store');
+    Route::put('/pesanan/{order}', [OrderController::class, 'update'])->name('pesanan.update');
+    Route::delete('/pesanan/{order}', [OrderController::class, 'destroy'])->name('pesanan.destroy');
     Route::get('/pesanan/{order}', [OrderController::class, 'show'])->name('pesanan.show');
     Route::put('/pesanan/{order}/status', [OrderController::class, 'updateStatus'])->name('pesanan.status');
 

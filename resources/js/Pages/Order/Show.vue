@@ -115,7 +115,7 @@ function submit() {
                 </div>
             </div>
 
-            <Link href="/pesanan" class="font-mono text-[11px] text-accent hover:text-accent-dark">← Kembali ke daftar pesanan</Link>
+            <Link href="/pesanan" class="font-mono text-[11px] text-accent hover:text-accent-dark">← Kembali ke data penjualan</Link>
         </div>
     </AppLayout>
 </template>

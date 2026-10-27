@@ -1,6 +1,6 @@
 <script setup>
 import { computed, ref } from 'vue';
-import { Link } from '@inertiajs/vue3';
+import { Link, useForm } from '@inertiajs/vue3';
 import AppLayout from '@/Layouts/AppLayout.vue';
 import ChartCanvas from '@/Components/ChartCanvas.vue';
 import StatusBadge from '@/Components/StatusBadge.vue';
@@ -18,12 +18,26 @@ const props = defineProps({
     shareTotal: Number,
     topProducts: Array,
     allTop: Number,
+    preprocess: Object,
+    model: Object,
+    horizonOptions: Array,
     hint: String,
 });
 
 const range = ref('30');
 const showAll = ref(false);
 const recoOpen = ref(false);
+
+// ---------- input periode prediksi (flowchart langkah 9–10) ----------
+const horizonForm = useForm({ horizon_days: 30 });
+
+function hitungPrediksi() {
+    horizonForm.post('/prediksi/hitung', { preserveScroll: true });
+}
+
+function setHorizon(days) {
+    horizonForm.horizon_days = days;
+}
 
 const chart = computed(() => props.charts?.['projection' + range.value]);
 const visibleProducts = computed(() => (showAll.value ? props.topProducts : props.topProducts.slice(0, 10)));
@@ -125,11 +139,136 @@ function actualPeriodLabel() {
     // periode pembanding sama panjang sebelum akhir data
     return `periode pembanding`;
 }
+
+// ---------- langkah flowchart sistem usulan ----------
+const checks = computed(() => props.preprocess?.checks ?? []);
+const firstBadCheck = computed(() => checks.value.find((c) => !c.ok));
+
+const processSteps = computed(() => {
+    const m = props.model ?? {};
+    const hasModel = m.a !== null && m.b !== null;
+    const a = num(m.a, 4);
+    const b = num(m.b, 4);
+    const allOk = checks.value.every((c) => c.ok);
+
+    return [
+        {
+            n: 1,
+            label: 'Login Pengguna',
+            detail: 'Sesi aktif — menu hanya tersedia setelah login valid.',
+            ok: true,
+            status: '✓',
+        },
+        {
+            n: 2,
+            label: 'Kelola data penjualan historis',
+            detail: `${num(props.preprocess?.orders_count ?? 0)} pesanan tercatat. Tambah / ubah / hapus / impor di menu Data Penjualan.`,
+            ok: (props.preprocess?.orders_count ?? 0) > 0,
+            status: null,
+            link: '/pesanan',
+            linkLabel: 'Buka menu →',
+        },
+        {
+            n: 3,
+            label: 'Pra-pemrosesan data',
+            detail: 'Memeriksa data kosong, invoice duplikat, pesanan tanpa item, dan urutan periode.',
+            ok: allOk,
+            status: allOk ? '✓ siap' : '! perbaiki',
+        },
+        {
+            n: 4,
+            label: 'Data valid?',
+            detail: firstBadCheck.value ? firstBadCheck.value.detail : 'Semua pemeriksaan lolos — data siap dipakai model.',
+            ok: !!props.preprocess?.valid,
+            status: props.preprocess?.valid ? 'Valid' : 'Perlu perbaikan',
+        },
+        {
+            n: 5,
+            label: 'Hitung koefisien regresi (a dan b)',
+            detail: hasModel
+                ? `a = ${a} · b = ${b} — regresi total qty per minggu level toko (${num(m.periods_count ?? 0)} periode)`
+                : 'Belum ada run — isi periode prediksi lalu tekan "Hitung prediksi".',
+            ok: hasModel,
+            status: hasModel ? `${a} · ${b}` : '—',
+        },
+        {
+            n: 6,
+            label: 'Bentuk model Y = a + bX',
+            detail: 'Y = total qty per minggu, X = indeks periode (minggu ke-1, ke-2, …). Prediksi per produk dihitung dengan model masing-masing.',
+            ok: hasModel,
+            status: hasModel ? `Y = ${a} + ${b}·X` : '—',
+        },
+    ];
+});
 </script>
 
 <template>
     <AppLayout>
-        <template v-if="run">
+        <div class="space-y-5">
+            <!-- ===== Alur proses — flowchart sistem usulan ===== -->
+            <section class="panel p-5" aria-label="Alur proses sistem">
+                <div class="mb-4 flex flex-wrap items-baseline justify-between gap-2">
+                    <div>
+                        <p class="kicker">Alur proses — flowchart sistem usulan</p>
+                        <h2 class="mt-1 font-display text-base font-bold">Pra-pemrosesan → koefisien regresi → model → periode → hasil</h2>
+                    </div>
+                </div>
+                <div class="grid grid-cols-1 gap-5 xl:grid-cols-3">
+                    <ol class="space-y-2 xl:col-span-2">
+                        <li
+                            v-for="step in processSteps"
+                            :key="step.n"
+                            class="flex items-start gap-3 rounded-lg border border-line/70 bg-surface px-3.5 py-2.5"
+                        >
+                            <span
+                                class="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full font-mono text-[10px] font-bold"
+                                :class="step.ok ? 'bg-ok/15 text-ok' : 'bg-line/40 text-ink-faint'"
+                            >{{ step.n }}</span>
+                            <div class="min-w-0 flex-1">
+                                <p class="text-[13px] font-medium" :class="!step.ok && 'text-ink-soft'">{{ step.label }}</p>
+                                <p class="mt-0.5 font-mono text-[10px] leading-relaxed text-ink-faint">{{ step.detail }}</p>
+                            </div>
+                            <div class="shrink-0 text-right">
+                                <Link v-if="step.link" :href="step.link" class="font-mono text-[11px] font-semibold text-accent hover:text-accent-dark">
+                                    {{ step.linkLabel }}
+                                </Link>
+                                <span v-else class="font-mono text-[11px] font-semibold" :class="step.ok ? 'text-ok' : 'text-bad'">{{ step.status }}</span>
+                            </div>
+                        </li>
+                    </ol>
+
+                    <!-- input periode prediksi (langkah 9–10) -->
+                    <form @submit.prevent="hitungPrediksi" class="flex flex-col rounded-lg border border-line bg-paper/60 p-4">
+                        <p class="kicker">Input periode prediksi</p>
+                        <h3 class="mt-1 font-display text-base font-bold">Langkah 9–10: periode → hitung</h3>
+                        <p class="mt-2 text-xs leading-relaxed text-ink-soft">
+                            Mulai sehari setelah data terakhir ({{ run ? run.data_end : '…' }}) selama N hari ke depan.
+                        </p>
+                        <div class="mt-3 flex flex-wrap items-center gap-1.5">
+                            <button
+                                v-for="d in horizonOptions"
+                                :key="d"
+                                type="button"
+                                class="rounded-md px-2.5 py-1 font-mono text-[11px] font-semibold transition-colors"
+                                :class="horizonForm.horizon_days === d ? 'bg-accent text-white' : 'border border-line bg-surface text-ink-soft hover:text-ink'"
+                                @click="setHorizon(d)"
+                            >
+                                {{ d }} hr
+                            </button>
+                            <input v-model.number="horizonForm.horizon_days" type="number" min="1" max="365" class="input w-20 font-mono text-[11px]" aria-label="Jumlah hari" />
+                        </div>
+                        <p v-if="horizonForm.errors.horizon_days" class="mt-1.5 text-xs text-bad">{{ horizonForm.errors.horizon_days }}</p>
+                        <button type="submit" class="btn-primary mt-4 w-full" :disabled="horizonForm.processing">
+                            {{ horizonForm.processing ? 'Menghitung…' : 'Hitung prediksi' }}
+                        </button>
+                        <p class="mt-2 font-mono text-[10px] leading-relaxed text-ink-faint">
+                            Menjalankan ulang model regresi linier (koefisien a dan b, prediksi per produk, evaluasi hold-out).
+                        </p>
+                    </form>
+                </div>
+            </section>
+
+            <template v-if="run">
             <div class="space-y-5">
                 <!-- ===== A. Banner insight mingguan ===== -->
                 <section
@@ -341,17 +480,18 @@ function actualPeriodLabel() {
                     </div>
                 </div>
             </Teleport>
-        </template>
+            </template>
 
-        <!-- state kosong: belum ada run -->
-        <template v-else>
-            <div class="panel">
-                <EmptyState title="Prediksi belum dibuat" :body="hint">
-                    <code class="mt-2 rounded-md border border-line bg-paper px-2.5 py-1 font-mono text-xs text-ink">
-                        php artisan predictions:run
-                    </code>
-                </EmptyState>
-            </div>
-        </template>
+            <!-- state kosong: belum ada run -->
+            <template v-else>
+                <div class="panel">
+                    <EmptyState title="Prediksi belum dibuat" :body="hint">
+                        <code class="mt-2 rounded-md border border-line bg-paper px-2.5 py-1 font-mono text-xs text-ink">
+                            php artisan predictions:run
+                        </code>
+                    </EmptyState>
+                </div>
+            </template>
+        </div>
     </AppLayout>
 </template>

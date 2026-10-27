@@ -18,8 +18,8 @@ const TITLES = {
     'produk.index': ['Produk', 'DATA'],
     'produk.show': ['Detail Produk', 'DATA'],
     'kategori.index': ['Kategori Produk', 'DATA'],
-    'pesanan.index': ['Pesanan', 'DATA'],
-    'pesanan.show': ['Detail Pesanan', 'DATA'],
+    'pesanan.index': ['Data Penjualan', 'DATA'],
+    'pesanan.show': ['Detail Data Penjualan', 'DATA'],
     'pelanggan.index': ['Pelanggan', 'DATA'],
     'pelanggan.show': ['Detail Pelanggan', 'DATA'],
     'laporan.index': ['Laporan', 'DATA'],
@@ -45,7 +45,7 @@ const NAV = [
     {
         section: 'Data',
         items: [
-            { label: 'Pesanan', href: '/pesanan', icon: '▤', match: 'pesanan', badge: () => pendingOrders.value, badgeTitle: 'Pesanan menunggu konfirmasi' },
+            { label: 'Data Penjualan', href: '/pesanan', icon: '▤', match: 'pesanan', badge: () => pendingOrders.value, badgeTitle: 'Pesanan menunggu konfirmasi' },
             { label: 'Produk', href: '/produk', icon: '▣', match: 'produk' },
             { label: 'Pelanggan', href: '/pelanggan', icon: '◈', match: 'pelanggan' },
             { label: 'Laporan', href: '/laporan', icon: '▦', match: 'laporan' },

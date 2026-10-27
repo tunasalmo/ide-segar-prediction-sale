@@ -2,10 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Category;
 use App\Models\ModelEvaluation;
+use App\Models\Order;
 use App\Models\PredictionRun;
 use App\Models\SalesPrediction;
+use App\Services\PredictionService;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Inertia\Inertia;
@@ -23,7 +25,10 @@ class PredictionController extends Controller
         if (! $run) {
             return Inertia::render('Prediction/Index', [
                 'run' => null,
-                'hint' => 'Belum ada hasil prediksi. Jalankan `php artisan predictions:run` untuk membuat prediksi pertama.',
+                'hint' => 'Belum ada hasil prediksi. Masukkan periode prediksi lalu tekan "Hitung prediksi", atau jalankan `php artisan predictions:run`.',
+                'preprocess' => $this->preprocessChecks(),
+                'model' => ['a' => null, 'b' => null, 'periods_count' => null],
+                'horizonOptions' => self::HORIZON_OPTIONS,
             ]);
         }
 
@@ -167,6 +172,13 @@ class PredictionController extends Controller
             ],
             'insight' => $insight,
             'rangeOptions' => $rangeOptions,
+            'preprocess' => $this->preprocessChecks(),
+            'model' => [
+                'a' => $run->model_a !== null ? (float) $run->model_a : null,
+                'b' => $run->model_b !== null ? (float) $run->model_b : null,
+                'periods_count' => (int) ($run->periods_count ?? 0),
+            ],
+            'horizonOptions' => self::HORIZON_OPTIONS,
             'charts' => [
                 'projection7' => $build(7),
                 'projection30' => $build(30),
@@ -182,5 +194,89 @@ class PredictionController extends Controller
                 ->orderByDesc('score')
                 ->count(),
         ]);
+    }
+
+    /** Opsi panjang periode prediksi (hari) untuk formulir "Input periode prediksi". */
+    private const HORIZON_OPTIONS = [7, 14, 30, 60, 90];
+
+    /**
+     * Alur flowchart langkah 10: "Hitung prediksi penjualan".
+     * Pengguna memasukkan periode (langkah 9), sistem menghitung ulang model
+     * dengan horizon tersebut lalu menampilkan hasilnya.
+     */
+    public function calculate(Request $request)
+    {
+        $data = $this->validate($request, [
+            'horizon_days' => ['required', 'integer', 'min:1', 'max:365'],
+        ]);
+
+        try {
+            $run = app(PredictionService::class)->run((int) $data['horizon_days']);
+        } catch (\Throwable $e) {
+            return redirect()->route('prediksi')->with('error', 'Gagal menghitung prediksi: '.$e->getMessage());
+        }
+
+        return redirect()->route('prediksi')
+            ->with('success', 'Prediksi '.$data['horizon_days'].' hari dihitung dengan model '.$run->model_version
+                .' (data '.$run->data_start?->format('d M Y').' – '.$run->data_end?->format('d M Y').').');
+    }
+
+    /**
+     * Alur flowchart langkah 5–6: "Pra-pemrosesan data" lalu "Data valid?".
+     * Pemeriksaan dihitung langsung dari basis data setiap halaman dibuka.
+     *
+     * @return array{valid: bool, checks: array<int, array{label: string, ok: bool, detail: string}>, orders_count: int}
+     */
+    private function preprocessChecks(): array
+    {
+        $ordersCount = (int) Order::count();
+
+        $duplicates = (int) DB::table('orders')
+            ->selectRaw('invoice_no, COUNT(*) as c')
+            ->groupBy('invoice_no')
+            ->havingRaw('COUNT(*) > 1')
+            ->get()
+            ->count();
+
+        $emptyItems = (int) DB::table('orders as o')
+            ->leftJoin('order_items as oi', 'oi.order_id', '=', 'o.id')
+            ->whereNull('oi.id')
+            ->count();
+
+        $minDate = Order::min('order_date');
+        $maxDate = Order::max('order_date');
+
+        $checks = [
+            [
+                'label' => 'Data penjualan tersedia',
+                'ok' => $ordersCount > 0,
+                'detail' => $ordersCount > 0
+                    ? $ordersCount.' pesanan tercatat di menu Data Penjualan'
+                    : 'Belum ada pesanan — tambahkan lewat menu Data Penjualan.',
+            ],
+            [
+                'label' => 'Nomor invoice tidak duplikat',
+                'ok' => $duplicates === 0,
+                'detail' => $duplicates === 0 ? 'Semua invoice unik' : $duplicates.' invoice terduplikasi — perbaiki di menu Data Penjualan.',
+            ],
+            [
+                'label' => 'Tidak ada pesanan kosong',
+                'ok' => $emptyItems === 0,
+                'detail' => $emptyItems === 0 ? 'Setiap pesanan memiliki minimal satu item' : $emptyItems.' pesanan tanpa item — perbaiki di menu Data Penjualan.',
+            ],
+            [
+                'label' => 'Periode terurut',
+                'ok' => $ordersCount > 0 && $minDate !== null,
+                'detail' => $minDate !== null
+                    ? 'Dari '.Carbon::parse($minDate)->format('d M Y').' sampai '.Carbon::parse($maxDate)->format('d M Y')
+                    : 'Tidak ada periode.',
+            ],
+        ];
+
+        return [
+            'valid' => collect($checks)->every(fn ($c) => $c['ok']),
+            'checks' => $checks,
+            'orders_count' => $ordersCount,
+        ];
     }
 }
