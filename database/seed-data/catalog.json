@@ -1,0 +1,505 @@
+{
+ "categories": [
+  "BENDERA",
+  "BOX",
+  "BUKU",
+  "BUKU NOTA",
+  "GOODIE BAG",
+  "JERSEY",
+  "KAOS",
+  "KARTU NAMA",
+  "KEMEJA OUTDOOR",
+  "LASER PRINT",
+  "Manual / Jasa",
+  "SABLON",
+  "SERAGAM OLAHRAGA",
+  "SPANDUK",
+  "STAMPEL",
+  "STIKER",
+  "STREET BANNER",
+  "SUBLIM",
+  "X-BANNER"
+ ],
+ "products": [
+  {
+   "category": "SPANDUK",
+   "name": "FLEXY 240gr — M2",
+   "unit": "Pcs",
+   "price": 33351,
+   "total_qty": 4660.0,
+   "total_omzet": 155414000.0
+  },
+  {
+   "category": "BUKU",
+   "name": "AL QUR'AN & COVER — A4",
+   "unit": "Pcs",
+   "price": 75000,
+   "total_qty": 447.0,
+   "total_omzet": 33525000.0
+  },
+  {
+   "category": "Manual / Jasa",
+   "name": "SERAGAM OLAHRAGA PEREMPUAN",
+   "unit": "pcs",
+   "price": 130000,
+   "total_qty": 205.0,
+   "total_omzet": 26650000.0
+  },
+  {
+   "category": "Manual / Jasa",
+   "name": "SERAGAM BATIK PEREMPUAN",
+   "unit": "pcs",
+   "price": 105000,
+   "total_qty": 205.0,
+   "total_omzet": 21525000.0
+  },
+  {
+   "category": "Manual / Jasa",
+   "name": "SERAGAM OLAHRAGA LAKI-LAKI",
+   "unit": "pcs",
+   "price": 110000,
+   "total_qty": 171.0,
+   "total_omzet": 18810000.0
+  },
+  {
+   "category": "BOX",
+   "name": "BOX AL QUR'AN FTL — 17,6 X 24,9 CM",
+   "unit": "Box",
+   "price": 50000,
+   "total_qty": 314.0,
+   "total_omzet": 15700000.0
+  },
+  {
+   "category": "Manual / Jasa",
+   "name": "SERAGAM BATIK LAKI-LAKI",
+   "unit": "pcs",
+   "price": 90000,
+   "total_qty": 171.0,
+   "total_omzet": 15390000.0
+  },
+  {
+   "category": "Manual / Jasa",
+   "name": "AKRILIK TIMBUL & MENYALA",
+   "unit": "pcs",
+   "price": 3301810,
+   "total_qty": 4.0,
+   "total_omzet": 13207238.0
+  },
+  {
+   "category": "BUKU",
+   "name": "AL QUR'AN FTL — 17,6 X 24,9 CM",
+   "unit": "Buku",
+   "price": 40000,
+   "total_qty": 312.0,
+   "total_omzet": 12480000.0
+  },
+  {
+   "category": "BENDERA",
+   "name": "SATIN PREMIUM — M2",
+   "unit": "Pcs",
+   "price": 175000,
+   "total_qty": 50.0,
+   "total_omzet": 8750000.0
+  },
+  {
+   "category": "SPANDUK",
+   "name": "FLEXY 280gr — M2",
+   "unit": "Pcs",
+   "price": 41171,
+   "total_qty": 117.0,
+   "total_omzet": 4817000.0
+  },
+  {
+   "category": "Manual / Jasa",
+   "name": "JERSEY Uk. XL",
+   "unit": "pcs",
+   "price": 70357,
+   "total_qty": 42.0,
+   "total_omzet": 2955000.0
+  },
+  {
+   "category": "Manual / Jasa",
+   "name": "JASA",
+   "unit": "pcs",
+   "price": 2000000,
+   "total_qty": 1.0,
+   "total_omzet": 2000000.0
+  },
+  {
+   "category": "Manual / Jasa",
+   "name": "Pemasangan Reklame - Serta Perubahan Layout dari Landscape ke Potrait",
+   "unit": "pcs",
+   "price": 2000000,
+   "total_qty": 1.0,
+   "total_omzet": 2000000.0
+  },
+  {
+   "category": "Manual / Jasa",
+   "name": "JERSEY Uk. L",
+   "unit": "pcs",
+   "price": 70400,
+   "total_qty": 25.0,
+   "total_omzet": 1760000.0
+  },
+  {
+   "category": "Manual / Jasa",
+   "name": "SISA PEMBAYARAN 6 AGUSTUS 2026",
+   "unit": "pcs",
+   "price": 1718000,
+   "total_qty": 1.0,
+   "total_omzet": 1718000.0
+  },
+  {
+   "category": "Manual / Jasa",
+   "name": "JERSEY Uk. 2XL",
+   "unit": "pcs",
+   "price": 80625,
+   "total_qty": 16.0,
+   "total_omzet": 1290000.0
+  },
+  {
+   "category": "SERAGAM OLAHRAGA",
+   "name": "SIZE 6 (L ANAK) — PE",
+   "unit": "Set",
+   "price": 85000,
+   "total_qty": 15.0,
+   "total_omzet": 1275000.0
+  },
+  {
+   "category": "KEMEJA OUTDOOR",
+   "name": "DRILL — 12",
+   "unit": "Set",
+   "price": 270000,
+   "total_qty": 4.0,
+   "total_omzet": 1080000.0
+  },
+  {
+   "category": "SABLON",
+   "name": "DTF — A4",
+   "unit": "LEMBAR",
+   "price": 15000,
+   "total_qty": 58.0,
+   "total_omzet": 870000.0
+  },
+  {
+   "category": "SERAGAM OLAHRAGA",
+   "name": "SIZE 8 (XL ANAK) — PE",
+   "unit": "Set",
+   "price": 85000,
+   "total_qty": 10.0,
+   "total_omzet": 850000.0
+  },
+  {
+   "category": "KEMEJA OUTDOOR",
+   "name": "DRILL — XL",
+   "unit": "Set",
+   "price": 300000,
+   "total_qty": 2.0,
+   "total_omzet": 600000.0
+  },
+  {
+   "category": "GOODIE BAG",
+   "name": "SPUNBOUND — 40X30 CM",
+   "unit": "Pcs",
+   "price": 6000,
+   "total_qty": 100.0,
+   "total_omzet": 600000.0
+  },
+  {
+   "category": "Manual / Jasa",
+   "name": "JERSEY Uk. M",
+   "unit": "pcs",
+   "price": 72500,
+   "total_qty": 8.0,
+   "total_omzet": 580000.0
+  },
+  {
+   "category": "Manual / Jasa",
+   "name": "JERSEY Uk. 3XL",
+   "unit": "pcs",
+   "price": 84167,
+   "total_qty": 6.0,
+   "total_omzet": 505000.0
+  },
+  {
+   "category": "KAOS",
+   "name": "COMBED — 3XL",
+   "unit": "Pcs",
+   "price": 50000,
+   "total_qty": 10.0,
+   "total_omzet": 500000.0
+  },
+  {
+   "category": "SPANDUK",
+   "name": "FLEXY 300gr — M2",
+   "unit": "Pcs",
+   "price": 33571,
+   "total_qty": 14.0,
+   "total_omzet": 470000.0
+  },
+  {
+   "category": "KAOS",
+   "name": "COMBED — L",
+   "unit": "Pcs",
+   "price": 35000,
+   "total_qty": 13.0,
+   "total_omzet": 455000.0
+  },
+  {
+   "category": "KAOS",
+   "name": "COMBED — XL",
+   "unit": "Pcs",
+   "price": 35000,
+   "total_qty": 13.0,
+   "total_omzet": 455000.0
+  },
+  {
+   "category": "KAOS",
+   "name": "COMBED — 2XL",
+   "unit": "Pcs",
+   "price": 45000,
+   "total_qty": 10.0,
+   "total_omzet": 450000.0
+  },
+  {
+   "category": "SERAGAM OLAHRAGA",
+   "name": "SIZE 4 (M ANAK) — PE",
+   "unit": "Set",
+   "price": 85000,
+   "total_qty": 5.0,
+   "total_omzet": 425000.0
+  },
+  {
+   "category": "BUKU NOTA",
+   "name": "NCR - 2 Rangkap — 1/4 F4",
+   "unit": "Buku",
+   "price": 10000,
+   "total_qty": 40.0,
+   "total_omzet": 400000.0
+  },
+  {
+   "category": "BUKU NOTA",
+   "name": "NCR - 2 RANGKAP — 1/3 F4 (21X11CM)",
+   "unit": "Buku",
+   "price": 12000,
+   "total_qty": 30.0,
+   "total_omzet": 360000.0
+  },
+  {
+   "category": "BUKU NOTA",
+   "name": "NCR - 2 RANGKAP — 1/2 F4 (21X16,5CM)",
+   "unit": "Buku",
+   "price": 18000,
+   "total_qty": 20.0,
+   "total_omzet": 360000.0
+  },
+  {
+   "category": "KEMEJA OUTDOOR",
+   "name": "DRILL — 4XL",
+   "unit": "Set",
+   "price": 330000,
+   "total_qty": 1.0,
+   "total_omzet": 330000.0
+  },
+  {
+   "category": "SPANDUK",
+   "name": "FLEXY 340gr — M2",
+   "unit": "Pcs",
+   "price": 100667,
+   "total_qty": 3.0,
+   "total_omzet": 302000.0
+  },
+  {
+   "category": "KEMEJA OUTDOOR",
+   "name": "DRILL — XS",
+   "unit": "Set",
+   "price": 300000,
+   "total_qty": 1.0,
+   "total_omzet": 300000.0
+  },
+  {
+   "category": "KEMEJA OUTDOOR",
+   "name": "DRILL — L",
+   "unit": "Set",
+   "price": 300000,
+   "total_qty": 1.0,
+   "total_omzet": 300000.0
+  },
+  {
+   "category": "STIKER",
+   "name": "CHROMO — A3+",
+   "unit": "LEMBAR",
+   "price": 7189,
+   "total_qty": 37.0,
+   "total_omzet": 266000.0
+  },
+  {
+   "category": "JERSEY",
+   "name": "DRYFIT — 12",
+   "unit": "Pcs",
+   "price": 65000,
+   "total_qty": 4.0,
+   "total_omzet": 260000.0
+  },
+  {
+   "category": "SUBLIM",
+   "name": "TRANSFER PAPER — M2",
+   "unit": "Pcs",
+   "price": 19846,
+   "total_qty": 13.0,
+   "total_omzet": 258000.0
+  },
+  {
+   "category": "JERSEY",
+   "name": "DRYFIT — XL",
+   "unit": "Pcs",
+   "price": 60000,
+   "total_qty": 4.0,
+   "total_omzet": 240000.0
+  },
+  {
+   "category": "STIKER",
+   "name": "VINYL QUANTAC — A3+",
+   "unit": "LEMBAR",
+   "price": 11882,
+   "total_qty": 17.0,
+   "total_omzet": 202000.0
+  },
+  {
+   "category": "SABLON",
+   "name": "DTF — M2",
+   "unit": "Roll",
+   "price": 77500,
+   "total_qty": 2.0,
+   "total_omzet": 155000.0
+  },
+  {
+   "category": "X-BANNER",
+   "name": "FLEXY 280gr — 60X160CM",
+   "unit": "Pcs",
+   "price": 75000,
+   "total_qty": 2.0,
+   "total_omzet": 150000.0
+  },
+  {
+   "category": "STAMPEL",
+   "name": "PERSEGI — 55X17MM",
+   "unit": "pcs",
+   "price": 75000,
+   "total_qty": 2.0,
+   "total_omzet": 150000.0
+  },
+  {
+   "category": "KAOS",
+   "name": "COMBED — M",
+   "unit": "Pcs",
+   "price": 35000,
+   "total_qty": 4.0,
+   "total_omzet": 140000.0
+  },
+  {
+   "category": "STREET BANNER",
+   "name": "FLEXY 240gr — 50X75CM",
+   "unit": "Pcs",
+   "price": 8000,
+   "total_qty": 17.0,
+   "total_omzet": 136000.0
+  },
+  {
+   "category": "STAMPEL",
+   "name": "PERSEGI — 40MM",
+   "unit": "Pcs",
+   "price": 67500,
+   "total_qty": 2.0,
+   "total_omzet": 135000.0
+  },
+  {
+   "category": "JERSEY",
+   "name": "DRYFIT — 4XL",
+   "unit": "Pcs",
+   "price": 105000,
+   "total_qty": 1.0,
+   "total_omzet": 105000.0
+  },
+  {
+   "category": "JERSEY",
+   "name": "DRYFIT — S",
+   "unit": "Pcs",
+   "price": 45000,
+   "total_qty": 2.0,
+   "total_omzet": 90000.0
+  },
+  {
+   "category": "JERSEY",
+   "name": "DRYFIT — XS",
+   "unit": "Pcs",
+   "price": 75000,
+   "total_qty": 1.0,
+   "total_omzet": 75000.0
+  },
+  {
+   "category": "JERSEY",
+   "name": "DRYFIT — L",
+   "unit": "Pcs",
+   "price": 75000,
+   "total_qty": 1.0,
+   "total_omzet": 75000.0
+  },
+  {
+   "category": "Manual / Jasa",
+   "name": "SAMPEL JERSEY",
+   "unit": "pcs",
+   "price": 50000,
+   "total_qty": 1.0,
+   "total_omzet": 50000.0
+  },
+  {
+   "category": "KARTU NAMA",
+   "name": "ART CARTON 260gr — 9X5,5CM - 1 Muka",
+   "unit": "Box",
+   "price": 25000,
+   "total_qty": 2.0,
+   "total_omzet": 50000.0
+  },
+  {
+   "category": "JERSEY",
+   "name": "DRYFIT — 2XL",
+   "unit": "Pcs",
+   "price": 45000,
+   "total_qty": 1.0,
+   "total_omzet": 45000.0
+  },
+  {
+   "category": "STAMPEL",
+   "name": "PERSEGI — 40X13MM",
+   "unit": "Pcs",
+   "price": 35000,
+   "total_qty": 1.0,
+   "total_omzet": 35000.0
+  },
+  {
+   "category": "Manual / Jasa",
+   "name": "BIAYA SETTING",
+   "unit": "pcs",
+   "price": 15000,
+   "total_qty": 1.0,
+   "total_omzet": 15000.0
+  },
+  {
+   "category": "LASER PRINT",
+   "name": "ART CARTON 260gr — A3+",
+   "unit": "LEMBAR",
+   "price": 5000,
+   "total_qty": 2.0,
+   "total_omzet": 10000.0
+  },
+  {
+   "category": "LASER PRINT",
+   "name": "KARTON LINEN 260gr — A3+",
+   "unit": "LEMBAR",
+   "price": 7000,
+   "total_qty": 1.0,
+   "total_omzet": 7000.0
+  }
+ ]
+}
