@@ -3,9 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\Category;
-use App\Models\Order;
+use App\Models\PredictionRun;
 use App\Models\Product;
 use App\Models\SalesPrediction;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Validation\Rule;
@@ -36,7 +37,7 @@ class ProductController extends Controller
             ->paginate(12)
             ->withQueryString();
 
-        $latestRun = \App\Models\PredictionRun::where('status', 'completed')->latest()->first();
+        $latestRun = PredictionRun::where('status', 'completed')->latest()->first();
         $growth = $latestRun
             ? SalesPrediction::where('prediction_run_id', $latestRun->id)
                 ->get()->keyBy('product_id')
@@ -75,7 +76,7 @@ class ProductController extends Controller
 
     public function show(Request $request, Product $product): Response
     {
-        $latestRun = \App\Models\PredictionRun::where('status', 'completed')->latest()->first();
+        $latestRun = PredictionRun::where('status', 'completed')->latest()->first();
 
         $prediction = $latestRun
             ? SalesPrediction::with('run')
@@ -92,7 +93,7 @@ class ProductController extends Controller
             ->orderByDesc('bulan')
             ->get()
             ->map(fn ($r) => [
-                'bulan' => \Carbon\Carbon::parse($r->bulan.'-01')->translatedFormat('M Y'),
+                'bulan' => Carbon::parse($r->bulan.'-01')->translatedFormat('M Y'),
                 'qty' => (float) $r->qty,
                 'total' => (float) $r->total,
                 'pesanan' => (int) $r->pesanan,
@@ -143,6 +144,8 @@ class ProductController extends Controller
                 'growth_pct' => (float) $prediction->growth_pct,
                 'status_label' => $prediction->status_label,
                 'run_date' => $prediction->run?->finished_at?->format('d M Y H:i'),
+                'model_version' => $prediction->run?->model_version,
+                'series' => $prediction->series ?? [],
             ] : null,
             'history' => $history,
             'recentItems' => $recentItems,

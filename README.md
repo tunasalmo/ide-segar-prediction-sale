@@ -8,10 +8,11 @@ Stack: Laravel 12 · Vue 3 + Inertia.js 2 · Tailwind CSS · Chart.js · MySQL 8
 
 ## Data sumber
 
-`docs/detail-penjualan-produk.xlsx` — backup item invoice 1 Mei – 17 Okt 2026
-(229 invoice, 329 baris item, omzet Rp 352.107.238, cocok dengan laporan PDF;
-lihat sheet "Ringkasan"). Diimpor via seeder ke tabel `products`, `customers`,
-`orders`, `order_items`, `categories`.
+`Detail penjualan ide segar.xlsx` — detail penjualan 1 Mei – 17 Okt 2026
+(214 invoice, 301 baris item, omzet Rp 39.135.000, sesuai baris TOTAL pada
+sheet). Diimpor via seeder ke tabel `products`, `customers`, `orders`,
+`order_items`, `categories` (script regenerasi seed:
+`scripts/build-seed-from-xlsx.py`).
 
 ## Persyaratan
 

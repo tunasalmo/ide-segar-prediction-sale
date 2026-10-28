@@ -43,6 +43,122 @@ const historyOptions = {
     },
 };
 
+// nama bulan Indonesia — sama dengan format Carbon 'M Y' pada riwayat (history[].bulan)
+const BULAN = ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul', 'Agu', 'Sep', 'Okt', 'Nov', 'Des'];
+
+// grafik prediksi per bulan: riwayat penjualan + proyeksi (agregasi deret harian) + garis tren
+const predictionTrendData = computed(() => {
+    const labelIndex = new Map();
+    const labels = [];
+    const riwayat = [];
+    const prediksi = [];
+    const tren = [];
+
+    // riwayat datang terbaru duluan dari backend → balik jadi kronologis
+    for (const h of [...props.history].reverse()) {
+        labelIndex.set(h.bulan, labels.length);
+        labels.push(h.bulan);
+        riwayat.push(h.qty);
+        prediksi.push(null);
+        tren.push(h.qty);
+    }
+
+    // agregasi deret harian prediksi per bulan ('YYYY-MM-DD' -> qty)
+    const sums = new Map();
+    for (const [d, v] of Object.entries(props.prediction?.series ?? {})) {
+        const key = d.slice(0, 7);
+        sums.set(key, (sums.get(key) ?? 0) + v);
+    }
+    for (const [key, total] of [...sums.entries()].sort(([a], [b]) => a.localeCompare(b))) {
+        const [y, m] = key.split('-');
+        const label = `${BULAN[Number(m) - 1]} ${y}`;
+        if (labelIndex.has(label)) {
+            // bulan yang sama dengan bulan riwayat terakhir (periode prediksi lintas bulan)
+            const i = labelIndex.get(label);
+            prediksi[i] = total;
+            tren[i] = riwayat[i] + total;
+        } else {
+            labelIndex.set(label, labels.length);
+            labels.push(label);
+            riwayat.push(null);
+            prediksi.push(total);
+            tren.push(total);
+        }
+    }
+
+    return {
+        labels,
+        datasets: [
+            {
+                type: 'bar',
+                label: 'Riwayat',
+                data: riwayat,
+                backgroundColor: 'rgba(90,69,199,0.18)',
+                borderColor: '#5A45C7',
+                borderWidth: 1,
+                borderRadius: 4,
+                maxBarThickness: 36,
+            },
+            {
+                type: 'bar',
+                label: 'Prediksi',
+                data: prediksi,
+                backgroundColor: 'rgba(46,155,214,0.22)',
+                borderColor: '#2E9BD6',
+                borderWidth: 1,
+                borderRadius: 4,
+                maxBarThickness: 36,
+            },
+            {
+                type: 'line',
+                label: 'Tren',
+                data: tren,
+                borderColor: '#1B1815',
+                backgroundColor: 'transparent',
+                borderWidth: 2,
+                borderDash: [4, 3],
+                tension: 0,
+                pointRadius: 3,
+                pointBackgroundColor: '#1B1815',
+                pointBorderColor: '#FFFFFF',
+                pointBorderWidth: 1.5,
+                spanGaps: false,
+            },
+        ],
+    };
+});
+
+const predictionTrendOptions = {
+    plugins: {
+        legend: {
+            labels: { boxWidth: 14, boxHeight: 2, usePointStyle: false, font: { size: 11 } },
+        },
+        tooltip: {
+            callbacks: {
+                label: (ctx) => {
+                    if (ctx.parsed.y === null) return null;
+                    return ` ${ctx.dataset.label}: ${num(ctx.parsed.y, 2)} ${props.product.unit}`;
+                },
+            },
+        },
+    },
+    scales: {
+        x: { ticks: { maxTicksLimit: 12, maxRotation: 0, autoSkip: true } },
+        y: { beginAtZero: true, ticks: { precision: 0 } },
+    },
+};
+
+// arah kecenderungan garis tren: naik / turun / stabil
+const trendDirection = computed(() => {
+    const pts = (predictionTrendData.value.datasets[2]?.data ?? []).filter((v) => v !== null);
+    if (pts.length < 2) return null;
+    const first = pts[0];
+    const last = pts[pts.length - 1];
+    if (last > first) return { arrow: '↗', text: 'cenderung naik', cls: 'text-ok' };
+    if (last < first) return { arrow: '↘', text: 'cenderung turun', cls: 'text-bad' };
+    return { arrow: '→', text: 'cenderung stabil', cls: 'text-ink-faint' };
+});
+
 const editOpen = ref(false);
 const form = useForm({
     name: props.product.name,
@@ -140,6 +256,35 @@ function toggleActive() {
                         </div>
                         <StatusBadge :value="prediction.status_label" />
                     </div>
+                </div>
+
+                <!-- grafik prediksi per bulan: riwayat + proyeksi + tren -->
+                <div class="mt-5 border-t border-line/60 pt-4">
+                    <div class="mb-3 flex flex-wrap items-baseline justify-between gap-2">
+                        <div>
+                            <p class="kicker">Grafik prediksi per bulan</p>
+                            <h4 class="mt-1 font-display text-sm font-bold">Riwayat & proyeksi qty bulanan — {{ prediction.period_start }} s.d. {{ prediction.period_end }}</h4>
+                        </div>
+                        <div class="flex flex-wrap items-center gap-2.5">
+                            <span
+                                v-if="trendDirection"
+                                class="inline-flex items-center gap-1.5 rounded-full border px-2.5 py-0.5 font-mono text-[11px] font-semibold"
+                                :class="[trendDirection.cls, 'border-line']"
+                            >
+                                {{ trendDirection.arrow }} {{ trendDirection.text }}
+                            </span>
+                            <span class="font-mono text-[10px] text-ink-faint">model {{ prediction.model_version ?? '—' }} · {{ Object.keys(prediction.series ?? {}).length }} hari</span>
+                        </div>
+                    </div>
+                    <div v-if="Object.keys(prediction.series ?? {}).length" class="h-56">
+                        <ChartCanvas type="bar" :data="predictionTrendData" :options="predictionTrendOptions" />
+                    </div>
+                    <p v-else class="font-mono text-[11px] leading-relaxed text-ink-faint">
+                        Deret prediksi tidak tersedia untuk produk ini pada run terakhir.
+                    </p>
+                    <p class="mt-2 font-mono text-[10px] text-ink-faint">
+                        Nilai prediksi per bulan dijumlahkan dari deret harian model ({{ prediction.model_version ?? 'linreg-weekly-v1' }}) untuk periode {{ prediction.period_start }} – {{ prediction.period_end }}. Garis tren menghubungkan riwayat dengan proyeksi agar arah naik/turun terlihat.
+                    </p>
                 </div>
             </div>
 

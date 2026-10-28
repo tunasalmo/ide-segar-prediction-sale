@@ -207,40 +207,9 @@ const processSteps = computed(() => {
         <div class="space-y-5">
             <!-- ===== Alur proses — flowchart sistem usulan ===== -->
             <section class="panel p-5" aria-label="Alur proses sistem">
-                <div class="mb-4 flex flex-wrap items-baseline justify-between gap-2">
-                    <div>
-                        <p class="kicker">Alur proses — flowchart sistem usulan</p>
-                        <h2 class="mt-1 font-display text-base font-bold">Pra-pemrosesan → koefisien regresi → model → periode → hasil</h2>
-                    </div>
-                </div>
-                <div class="grid grid-cols-1 gap-5 xl:grid-cols-3">
-                    <ol class="space-y-2 xl:col-span-2">
-                        <li
-                            v-for="step in processSteps"
-                            :key="step.n"
-                            class="flex items-start gap-3 rounded-lg border border-line/70 bg-surface px-3.5 py-2.5"
-                        >
-                            <span
-                                class="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full font-mono text-[10px] font-bold"
-                                :class="step.ok ? 'bg-ok/15 text-ok' : 'bg-line/40 text-ink-faint'"
-                            >{{ step.n }}</span>
-                            <div class="min-w-0 flex-1">
-                                <p class="text-[13px] font-medium" :class="!step.ok && 'text-ink-soft'">{{ step.label }}</p>
-                                <p class="mt-0.5 font-mono text-[10px] leading-relaxed text-ink-faint">{{ step.detail }}</p>
-                            </div>
-                            <div class="shrink-0 text-right">
-                                <Link v-if="step.link" :href="step.link" class="font-mono text-[11px] font-semibold text-accent hover:text-accent-dark">
-                                    {{ step.linkLabel }}
-                                </Link>
-                                <span v-else class="font-mono text-[11px] font-semibold" :class="step.ok ? 'text-ok' : 'text-bad'">{{ step.status }}</span>
-                            </div>
-                        </li>
-                    </ol>
-
                     <!-- input periode prediksi (langkah 9–10) -->
                     <form @submit.prevent="hitungPrediksi" class="flex flex-col rounded-lg border border-line bg-paper/60 p-4">
                         <p class="kicker">Input periode prediksi</p>
-                        <h3 class="mt-1 font-display text-base font-bold">Langkah 9–10: periode → hitung</h3>
                         <p class="mt-2 text-xs leading-relaxed text-ink-soft">
                             Mulai sehari setelah data terakhir ({{ run ? run.data_end : '…' }}) selama N hari ke depan.
                         </p>
@@ -265,7 +234,6 @@ const processSteps = computed(() => {
                             Menjalankan ulang model regresi linier (koefisien a dan b, prediksi per produk, evaluasi hold-out).
                         </p>
                     </form>
-                </div>
             </section>
 
             <template v-if="run">

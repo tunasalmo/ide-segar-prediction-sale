@@ -5,7 +5,6 @@
    "date": "2026-05-01",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 8000.0,
    "items": [
     {
      "product": "VINYL QUANTAC — A3+",
@@ -19,47 +18,14 @@
       ""
      ]
     }
-   ]
-  },
-  {
-   "invoice_no": "INV-ISP-01052026-002",
-   "date": "2026-05-01",
-   "customer": "Dr. H. Agus Sriyatna, M.Pd",
-   "payment_status": "Lunas",
-   "total": 28180000.0,
-   "items": [
-    {
-     "product": "AL QUR'AN FTL — 17,6 X 24,9 CM",
-     "category": "BUKU",
-     "unit": "Buku",
-     "qty": 312.0,
-     "unit_price": 40000.0,
-     "total": 12480000.0,
-     "note": [
-      "AL QUR'AN FTL — 17,6 X 24,9 CM",
-      ""
-     ]
-    },
-    {
-     "product": "BOX AL QUR'AN FTL — 17,6 X 24,9 CM",
-     "category": "BOX",
-     "unit": "Box",
-     "qty": 314.0,
-     "unit_price": 50000.0,
-     "total": 15700000.0,
-     "note": [
-      "BOX AL QUR'AN FTL — 17,6 X 24,9 CM",
-      ""
-     ]
-    }
-   ]
+   ],
+   "total": 8000.0
   },
   {
    "invoice_no": "INV-ISP-01052026-001",
    "date": "2026-05-01",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 30000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -73,51 +39,15 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 30000.0
   },
   {
    "invoice_no": "INV-RA-04052026-001",
    "date": "2026-05-04",
    "customer": "DKM AN-NUR",
    "payment_status": "Lunas",
-   "total": 2000000.0,
    "items": [
-    {
-     "product": "COMBED — M",
-     "category": "KAOS",
-     "unit": "Pcs",
-     "qty": 4.0,
-     "unit_price": 35000.0,
-     "total": 140000.0,
-     "note": [
-      "COMBED — M",
-      ""
-     ]
-    },
-    {
-     "product": "COMBED — L",
-     "category": "KAOS",
-     "unit": "Pcs",
-     "qty": 13.0,
-     "unit_price": 35000.0,
-     "total": 455000.0,
-     "note": [
-      "COMBED — L",
-      ""
-     ]
-    },
-    {
-     "product": "COMBED — XL",
-     "category": "KAOS",
-     "unit": "Pcs",
-     "qty": 13.0,
-     "unit_price": 35000.0,
-     "total": 455000.0,
-     "note": [
-      "COMBED — XL",
-      ""
-     ]
-    },
     {
      "product": "COMBED — 2XL",
      "category": "KAOS",
@@ -141,15 +71,51 @@
       "COMBED — 3XL",
       ""
      ]
+    },
+    {
+     "product": "COMBED — L",
+     "category": "KAOS",
+     "unit": "Pcs",
+     "qty": 13.0,
+     "unit_price": 35000.0,
+     "total": 455000.0,
+     "note": [
+      "COMBED — L",
+      ""
+     ]
+    },
+    {
+     "product": "COMBED — M",
+     "category": "KAOS",
+     "unit": "Pcs",
+     "qty": 4.0,
+     "unit_price": 35000.0,
+     "total": 140000.0,
+     "note": [
+      "COMBED — M",
+      ""
+     ]
+    },
+    {
+     "product": "COMBED — XL",
+     "category": "KAOS",
+     "unit": "Pcs",
+     "qty": 13.0,
+     "unit_price": 35000.0,
+     "total": 455000.0,
+     "note": [
+      "COMBED — XL",
+      ""
+     ]
     }
-   ]
+   ],
+   "total": 2000000.0
   },
   {
    "invoice_no": "INV-ISP-04052026-001",
    "date": "2026-05-04",
    "customer": "CV. OPAT SABLON",
    "payment_status": "Lunas",
-   "total": 95000.0,
    "items": [
     {
      "product": "DTF — M2",
@@ -163,14 +129,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 95000.0
   },
   {
    "invoice_no": "INV-ISP-05052026-001",
    "date": "2026-05-05",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 8000.0,
    "items": [
     {
      "product": "VINYL QUANTAC — A3+",
@@ -184,14 +150,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 8000.0
   },
   {
    "invoice_no": "INV-ISP-09052026-002",
    "date": "2026-05-09",
    "customer": "Bpk. Syarifudin S.Hum - JAPESPA",
    "payment_status": "Lunas",
-   "total": 1650000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -205,14 +171,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 1650000.0
   },
   {
    "invoice_no": "INV-ISP-09052026-001",
    "date": "2026-05-09",
    "customer": "LAZNAS IKADI",
    "payment_status": "Lunas",
-   "total": 600000.0,
    "items": [
     {
      "product": "SPUNBOUND — 40X30 CM",
@@ -226,14 +192,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 600000.0
   },
   {
    "invoice_no": "INV-ISP-11052026-002",
    "date": "2026-05-11",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 15000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -247,14 +213,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 15000.0
   },
   {
    "invoice_no": "INV-ISP-11052026-001",
    "date": "2026-05-11",
    "customer": "Bpk. Achmad Mahdi - DKM AL MUKHLISHIIN",
    "payment_status": "Lunas",
-   "total": 90000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -268,47 +234,14 @@
       ""
      ]
     }
-   ]
-  },
-  {
-   "invoice_no": "INV-ISP-12052026-001",
-   "date": "2026-05-12",
-   "customer": "Bpk. Syarifudin S.Hum - JAPESPA",
-   "payment_status": "Lunas",
-   "total": 7320000.0,
-   "items": [
-    {
-     "product": "FLEXY 240gr — M2",
-     "category": "SPANDUK",
-     "unit": "Pcs",
-     "qty": 40.0,
-     "unit_price": 18000.0,
-     "total": 720000.0,
-     "note": [
-      "0.8 × 2 m",
-      ""
-     ]
-    },
-    {
-     "product": "FLEXY 240gr — M2",
-     "category": "SPANDUK",
-     "unit": "Pcs",
-     "qty": 200.0,
-     "unit_price": 33000.0,
-     "total": 6600000.0,
-     "note": [
-      "3 × 1 m",
-      ""
-     ]
-    }
-   ]
+   ],
+   "total": 90000.0
   },
   {
    "invoice_no": "INV-ISP-13052026-002",
    "date": "2026-05-13",
    "customer": "USNI (UMAMI)",
    "payment_status": "Lunas",
-   "total": 45000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -322,14 +255,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 45000.0
   },
   {
    "invoice_no": "INV-ISP-13052026-001",
    "date": "2026-05-13",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 45000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -343,14 +276,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 45000.0
   },
   {
    "invoice_no": "INV-ISP-15052026-002",
    "date": "2026-05-15",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 150000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -376,14 +309,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 150000.0
   },
   {
    "invoice_no": "INV-ISP-15052026-001",
    "date": "2026-05-15",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 870000.0,
    "items": [
     {
      "product": "DTF — A4",
@@ -397,14 +330,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 870000.0
   },
   {
    "invoice_no": "INV-ISP-16052026-002",
    "date": "2026-05-16",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 45000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -418,14 +351,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 45000.0
   },
   {
    "invoice_no": "INV-ISP-16052026-001",
    "date": "2026-05-16",
    "customer": "Erwin",
    "payment_status": "Lunas",
-   "total": 15000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -439,14 +372,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 15000.0
   },
   {
    "invoice_no": "INV-ISP-18052026-001",
    "date": "2026-05-18",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 27000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -460,14 +393,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 27000.0
   },
   {
    "invoice_no": "INV-ISP-19052026-001",
    "date": "2026-05-19",
    "customer": "CHAKRA",
    "payment_status": "Lunas",
-   "total": 30000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -481,47 +414,14 @@
       ""
      ]
     }
-   ]
-  },
-  {
-   "invoice_no": "INV-ISP-20052026-001",
-   "date": "2026-05-20",
-   "customer": "Bpk. Syarifudin S.Hum - JAPESPA",
-   "payment_status": "Lunas",
-   "total": 18150000.0,
-   "items": [
-    {
-     "product": "FLEXY 240gr — M2",
-     "category": "SPANDUK",
-     "unit": "Pcs",
-     "qty": 450.0,
-     "unit_price": 33000.0,
-     "total": 14850000.0,
-     "note": [
-      "3 × 1 m",
-      ""
-     ]
-    },
-    {
-     "product": "FLEXY 240gr — M2",
-     "category": "SPANDUK",
-     "unit": "Pcs",
-     "qty": 100.0,
-     "unit_price": 33000.0,
-     "total": 3300000.0,
-     "note": [
-      "3 × 1 m",
-      ""
-     ]
-    }
-   ]
+   ],
+   "total": 30000.0
   },
   {
    "invoice_no": "INV-ISP-21052026-001",
    "date": "2026-05-21",
    "customer": "Ibu Yanie - SPS Al Fauzan",
    "payment_status": "Lunas",
-   "total": 48000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -535,14 +435,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 48000.0
   },
   {
    "invoice_no": "INV-ISP-22052026-004",
    "date": "2026-05-22",
    "customer": "DKM MASJID JAMI' AT -TAUHID",
    "payment_status": "Lunas",
-   "total": 90000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -556,35 +456,14 @@
       ""
      ]
     }
-   ]
-  },
-  {
-   "invoice_no": "INV-ISP-22052026-003",
-   "date": "2026-05-22",
-   "customer": "Bpk. Syarifudin S.Hum - JAPESPA",
-   "payment_status": "Lunas",
-   "total": 28050000.0,
-   "items": [
-    {
-     "product": "FLEXY 240gr — M2",
-     "category": "SPANDUK",
-     "unit": "Pcs",
-     "qty": 850.0,
-     "unit_price": 33000.0,
-     "total": 28050000.0,
-     "note": [
-      "3 × 1 m",
-      ""
-     ]
-    }
-   ]
+   ],
+   "total": 90000.0
   },
   {
    "invoice_no": "INV-ISP-22052026-002",
    "date": "2026-05-22",
    "customer": "Bpk. Achmad Mahdi - DKM AL MUKHLISHIIN",
    "payment_status": "Lunas",
-   "total": 55000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -598,14 +477,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 55000.0
   },
   {
    "invoice_no": "INV-ISP-22052026-001",
    "date": "2026-05-22",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 10000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -619,14 +498,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 10000.0
   },
   {
    "invoice_no": "INV-ISP-23052026-003",
    "date": "2026-05-23",
    "customer": "ARGA SHIWI",
    "payment_status": "Lunas",
-   "total": 40000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -640,14 +519,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 40000.0
   },
   {
    "invoice_no": "INV-ISP-23052026-002",
    "date": "2026-05-23",
    "customer": "Ahmat - Soto Ayam Khas Suramadu",
    "payment_status": "Lunas",
-   "total": 83000.0,
    "items": [
     {
      "product": "FLEXY 300gr — M2",
@@ -685,14 +564,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 83000.0
   },
   {
    "invoice_no": "INV-ISP-23052026-001",
    "date": "2026-05-23",
    "customer": "Ibu Yanie - SPS Al Fauzan",
    "payment_status": "Lunas",
-   "total": 45000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -706,14 +585,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 45000.0
   },
   {
    "invoice_no": "INV-ISP-25052026-002",
    "date": "2026-05-25",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 15000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -727,89 +606,14 @@
       ""
      ]
     }
-   ]
-  },
-  {
-   "invoice_no": "INV-ISP-25052026-001",
-   "date": "2026-05-25",
-   "customer": "Bpk. Syarifudin S.Hum - JAPESPA",
-   "payment_status": "Lunas",
-   "total": 13200000.0,
-   "items": [
-    {
-     "product": "FLEXY 240gr — M2",
-     "category": "SPANDUK",
-     "unit": "Pcs",
-     "qty": 400.0,
-     "unit_price": 33000.0,
-     "total": 13200000.0,
-     "note": [
-      "3 × 1 m",
-      ""
-     ]
-    }
-   ]
-  },
-  {
-   "invoice_no": "INV-ISP-26052026-001",
-   "date": "2026-05-26",
-   "customer": "Bpk. Syarifudin S.Hum - JAPESPA",
-   "payment_status": "Lunas",
-   "total": 13530000.0,
-   "items": [
-    {
-     "product": "FLEXY 240gr — M2",
-     "category": "SPANDUK",
-     "unit": "Pcs",
-     "qty": 400.0,
-     "unit_price": 33000.0,
-     "total": 13200000.0,
-     "note": [
-      "3 × 1 m",
-      ""
-     ]
-    },
-    {
-     "product": "FLEXY 240gr — M2",
-     "category": "SPANDUK",
-     "unit": "Pcs",
-     "qty": 10.0,
-     "unit_price": 33000.0,
-     "total": 330000.0,
-     "note": [
-      "3 × 1 m",
-      ""
-     ]
-    }
-   ]
-  },
-  {
-   "invoice_no": "INV-ISP-27052026-001",
-   "date": "2026-05-27",
-   "customer": "Bpk. Syarifudin S.Hum - JAPESPA",
-   "payment_status": "Lunas",
-   "total": 13200000.0,
-   "items": [
-    {
-     "product": "FLEXY 240gr — M2",
-     "category": "SPANDUK",
-     "unit": "Pcs",
-     "qty": 400.0,
-     "unit_price": 33000.0,
-     "total": 13200000.0,
-     "note": [
-      "3 × 1 m",
-      ""
-     ]
-    }
-   ]
+   ],
+   "total": 15000.0
   },
   {
    "invoice_no": "INV-ISP-29052026-002",
    "date": "2026-05-29",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 45000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -823,14 +627,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 45000.0
   },
   {
    "invoice_no": "INV-ISP-29052026-001",
    "date": "2026-05-29",
    "customer": "Yanuar P.",
    "payment_status": "Lunas",
-   "total": 105000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -856,14 +660,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 105000.0
   },
   {
    "invoice_no": "INV-ISP-02062026-003",
    "date": "2026-06-02",
    "customer": "Kang Apri",
    "payment_status": "Lunas",
-   "total": 270000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -877,14 +681,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 270000.0
   },
   {
    "invoice_no": "INV-ISP-02062026-002",
    "date": "2026-06-02",
    "customer": "BUDI ARIYANTO (Crepes Monster)",
    "payment_status": "Lunas",
-   "total": 63000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -910,14 +714,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 63000.0
   },
   {
    "invoice_no": "INV-ISP-02062026-001",
    "date": "2026-06-02",
    "customer": "ARGA SHIWI",
    "payment_status": "Lunas",
-   "total": 36000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -931,14 +735,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 36000.0
   },
   {
    "invoice_no": "INV-ISP-03062026-001",
    "date": "2026-06-03",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 10000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -952,14 +756,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 10000.0
   },
   {
    "invoice_no": "INV-ISP-04062026-002",
    "date": "2026-06-04",
    "customer": "PANTI PUTRI MUHAMMADIYAH",
    "payment_status": "Lunas",
-   "total": 75000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -973,14 +777,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 75000.0
   },
   {
    "invoice_no": "INV-ISP-04062026-001",
    "date": "2026-06-04",
    "customer": "Fadhil (R4 Fishing)",
    "payment_status": "Lunas",
-   "total": 180000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -994,14 +798,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 180000.0
   },
   {
    "invoice_no": "INV-ISP-05062026-001",
    "date": "2026-06-05",
    "customer": "Bpk. Syarifudin S.Hum - JAPESPA",
    "payment_status": "Lunas",
-   "total": 136000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -1015,14 +819,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 136000.0
   },
   {
    "invoice_no": "INV-ISP-08062026-002",
    "date": "2026-06-08",
    "customer": "Fahmi Syaikhoni, S. Pdi",
    "payment_status": "Lunas",
-   "total": 18000.0,
    "items": [
     {
      "product": "TRANSFER PAPER — M2",
@@ -1036,14 +840,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 18000.0
   },
   {
    "invoice_no": "INV-ISP-08062026-001",
    "date": "2026-06-08",
    "customer": "Bpk. Dirman Hidayat",
    "payment_status": "Lunas",
-   "total": 454000.0,
    "items": [
     {
      "product": "NCR - 2 Rangkap — 1/4 F4",
@@ -1069,14 +873,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 454000.0
   },
   {
    "invoice_no": "INV-ISP-09062026-001",
    "date": "2026-06-09",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 20000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -1090,14 +894,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 20000.0
   },
   {
    "invoice_no": "INV-ISP-10062026-003",
    "date": "2026-06-10",
    "customer": "Sule",
    "payment_status": "Lunas",
-   "total": 96000.0,
    "items": [
     {
      "product": "FLEXY 240gr — 50X75CM",
@@ -1111,14 +915,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 96000.0
   },
   {
    "invoice_no": "INV-ISP-10062026-002",
    "date": "2026-06-10",
    "customer": "Ani (Seblak Teh Ani)",
    "payment_status": "Lunas",
-   "total": 65000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -1144,14 +948,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 65000.0
   },
   {
    "invoice_no": "INV-ISP-10062026-001",
    "date": "2026-06-10",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 30000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -1165,14 +969,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 30000.0
   },
   {
    "invoice_no": "INV-ISP-11062026-003",
    "date": "2026-06-11",
    "customer": "Yanuar (Rumah Kreasi)",
    "payment_status": "Lunas",
-   "total": 18000.0,
    "items": [
     {
      "product": "TRANSFER PAPER — M2",
@@ -1186,14 +990,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 18000.0
   },
   {
    "invoice_no": "INV-ISP-11062026-002",
    "date": "2026-06-11",
    "customer": "Bpk. BAMBANG ( BUBUR AYAM )",
    "payment_status": "Lunas",
-   "total": 10000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -1207,14 +1011,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 10000.0
   },
   {
    "invoice_no": "INV-ISP-11062026-001",
    "date": "2026-06-11",
    "customer": "Ahmat - Soto Ayam Khas Suramadu",
    "payment_status": "Lunas",
-   "total": 66000.0,
    "items": [
     {
      "product": "FLEXY 300gr — M2",
@@ -1228,14 +1032,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 66000.0
   },
   {
    "invoice_no": "INV-ISP-12062026-002",
    "date": "2026-06-12",
    "customer": "Fadhil (R4 Fishing)",
    "payment_status": "Lunas",
-   "total": 144000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -1249,14 +1053,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 144000.0
   },
   {
    "invoice_no": "INV-ISP-12062026-001",
    "date": "2026-06-12",
    "customer": "Dicky",
    "payment_status": "Lunas",
-   "total": 278000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -1282,47 +1086,14 @@
       ""
      ]
     }
-   ]
-  },
-  {
-   "invoice_no": "INV-ISP-13062026-001",
-   "date": "2026-06-13",
-   "customer": "Bpk. Syarifudin S.Hum - JAPESPA",
-   "payment_status": "Lunas",
-   "total": 6867000.0,
-   "items": [
-    {
-     "product": "FLEXY 240gr — M2",
-     "category": "SPANDUK",
-     "unit": "Pcs",
-     "qty": 204.0,
-     "unit_price": 33000.0,
-     "total": 6732000.0,
-     "note": [
-      "3 × 1 m",
-      ""
-     ]
-    },
-    {
-     "product": "FLEXY 240gr — M2",
-     "category": "SPANDUK",
-     "unit": "Pcs",
-     "qty": 2.0,
-     "unit_price": 67500.0,
-     "total": 135000.0,
-     "note": [
-      "3 × 1.5 m",
-      ""
-     ]
-    }
-   ]
+   ],
+   "total": 278000.0
   },
   {
    "invoice_no": "INV-ISP-15062026-002",
    "date": "2026-06-15",
    "customer": "Kang Apri",
    "payment_status": "Lunas",
-   "total": 45000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -1336,14 +1107,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 45000.0
   },
   {
    "invoice_no": "INV-ISP-15062026-001",
    "date": "2026-06-15",
    "customer": "Ibu Yanie - SPS Al Fauzan",
    "payment_status": "Lunas",
-   "total": 25000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -1357,14 +1128,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 25000.0
   },
   {
    "invoice_no": "INV-ISP-17062026-004",
    "date": "2026-06-17",
    "customer": "Kang Mustofa Habil",
    "payment_status": "Lunas",
-   "total": 13000.0,
    "items": [
     {
      "product": "FLEXY 300gr — M2",
@@ -1378,14 +1149,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 13000.0
   },
   {
    "invoice_no": "INV-ISP-17062026-003",
    "date": "2026-06-17",
    "customer": "Mika",
    "payment_status": "Lunas",
-   "total": 72000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -1399,14 +1170,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 72000.0
   },
   {
    "invoice_no": "INV-ISP-17062026-002",
    "date": "2026-06-17",
    "customer": "Abu Fajr",
    "payment_status": "Lunas",
-   "total": 14000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -1420,14 +1191,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 14000.0
   },
   {
    "invoice_no": "INV-ISP-17062026-001",
    "date": "2026-06-17",
    "customer": "CEPI",
    "payment_status": "Lunas",
-   "total": 55000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -1441,14 +1212,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 55000.0
   },
   {
    "invoice_no": "INV-ISP-18062026-001",
    "date": "2026-06-18",
    "customer": "Ahmat - Soto Ayam Khas Suramadu",
    "payment_status": "Lunas",
-   "total": 120000.0,
    "items": [
     {
      "product": "FLEXY 300gr — M2",
@@ -1474,14 +1245,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 120000.0
   },
   {
    "invoice_no": "INV-ISP-19062026-002",
    "date": "2026-06-19",
    "customer": "Bpk. Joen",
    "payment_status": "Lunas",
-   "total": 75000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -1495,14 +1266,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 75000.0
   },
   {
    "invoice_no": "INV-ISP-19062026-001",
    "date": "2026-06-19",
    "customer": "Ibu Widia (Soto Bang Zidan)",
    "payment_status": "Lunas",
-   "total": 50000.0,
    "items": [
     {
      "product": "CHROMO — A3+",
@@ -1516,14 +1287,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 50000.0
   },
   {
    "invoice_no": "INV-ISP-20062026-001",
    "date": "2026-06-20",
    "customer": "CEPI (ES POTONG HAPPY DAY)",
    "payment_status": "Lunas",
-   "total": 35000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -1537,14 +1308,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 35000.0
   },
   {
    "invoice_no": "INV-ISP-22062026-002",
    "date": "2026-06-22",
    "customer": "Yanto",
    "payment_status": "Lunas",
-   "total": 45000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -1558,14 +1329,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 45000.0
   },
   {
    "invoice_no": "INV-ISP-22062026-001",
    "date": "2026-06-22",
    "customer": "Ust. Maidzar Madsuri (Sekolah At-Taufiq)",
    "payment_status": "Lunas",
-   "total": 2000000.0,
    "items": [
     {
      "product": "Pemasangan Reklame - Serta Perubahan Layout dari Landscape ke Potrait",
@@ -1579,14 +1350,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 2000000.0
   },
   {
    "invoice_no": "INV-ISP-23062026-001",
    "date": "2026-06-23",
    "customer": "Gobang Fishing",
    "payment_status": "Lunas",
-   "total": 144000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -1600,14 +1371,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 144000.0
   },
   {
    "invoice_no": "INV-ISP-24062026-002",
    "date": "2026-06-24",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 54000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -1633,35 +1404,14 @@
       ""
      ]
     }
-   ]
-  },
-  {
-   "invoice_no": "INV-ISP-24062026-001",
-   "date": "2026-06-24",
-   "customer": "Dr. H. Agus Sriyatna, M.Pd",
-   "payment_status": "Lunas",
-   "total": 33525000.0,
-   "items": [
-    {
-     "product": "AL QUR'AN & COVER — A4",
-     "category": "BUKU",
-     "unit": "Pcs",
-     "qty": 447.0,
-     "unit_price": 75000.0,
-     "total": 33525000.0,
-     "note": [
-      "AL QUR'AN & COVER — A4",
-      ""
-     ]
-    }
-   ]
+   ],
+   "total": 54000.0
   },
   {
    "invoice_no": "INV-ISP-25062026-002",
    "date": "2026-06-25",
    "customer": "Gobang Fishing",
    "payment_status": "Lunas",
-   "total": 180000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -1675,14 +1425,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 180000.0
   },
   {
    "invoice_no": "INV-ISP-25062026-001",
    "date": "2026-06-25",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 63000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -1708,14 +1458,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 63000.0
   },
   {
    "invoice_no": "INV-ISP-26062026-002",
    "date": "2026-06-26",
    "customer": "BAGAS",
    "payment_status": "Lunas",
-   "total": 125000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -1741,14 +1491,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 125000.0
   },
   {
    "invoice_no": "INV-ISP-26062026-001",
    "date": "2026-06-26",
    "customer": "ACHMAD",
    "payment_status": "Lunas",
-   "total": 90000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -1762,83 +1512,14 @@
       ""
      ]
     }
-   ]
-  },
-  {
-   "invoice_no": "INV-ISP-27062026-002",
-   "date": "2026-06-27",
-   "customer": "PDM MUHAMMADIYAH KOTA BOGOR",
-   "payment_status": "Lunas",
-   "total": 15207238.0,
-   "items": [
-    {
-     "product": "AKRILIK TIMBUL & MENYALA",
-     "category": "Manual / Jasa",
-     "unit": "pcs",
-     "qty": 1.0,
-     "unit_price": 2350150.0,
-     "total": 2350150.0,
-     "note": [
-      "",
-      ""
-     ]
-    },
-    {
-     "product": "AKRILIK TIMBUL & MENYALA",
-     "category": "Manual / Jasa",
-     "unit": "pcs",
-     "qty": 1.0,
-     "unit_price": 4475275.0,
-     "total": 4475275.0,
-     "note": [
-      "",
-      ""
-     ]
-    },
-    {
-     "product": "AKRILIK TIMBUL & MENYALA",
-     "category": "Manual / Jasa",
-     "unit": "pcs",
-     "qty": 1.0,
-     "unit_price": 2886625.0,
-     "total": 2886625.0,
-     "note": [
-      "",
-      ""
-     ]
-    },
-    {
-     "product": "AKRILIK TIMBUL & MENYALA",
-     "category": "Manual / Jasa",
-     "unit": "pcs",
-     "qty": 1.0,
-     "unit_price": 3495188.0,
-     "total": 3495188.0,
-     "note": [
-      "",
-      ""
-     ]
-    },
-    {
-     "product": "JASA",
-     "category": "Manual / Jasa",
-     "unit": "pcs",
-     "qty": 1.0,
-     "unit_price": 2000000.0,
-     "total": 2000000.0,
-     "note": [
-      "",
-      ""
-     ]
-    }
-   ]
+   ],
+   "total": 90000.0
   },
   {
    "invoice_no": "INV-ISP-27062026-001",
    "date": "2026-06-27",
    "customer": "KANG RIZAL (JULE)",
    "payment_status": "Lunas",
-   "total": 88000.0,
    "items": [
     {
      "product": "FLEXY 300gr — M2",
@@ -1852,14 +1533,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 88000.0
   },
   {
    "invoice_no": "INV-ISP-29062026-001",
    "date": "2026-06-29",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 26000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -1873,14 +1554,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 26000.0
   },
   {
    "invoice_no": "INV-ISP-30062026-001",
    "date": "2026-06-30",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 90000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -1894,14 +1575,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 90000.0
   },
   {
    "invoice_no": "INV-ISP-01072026-001",
    "date": "2026-07-01",
    "customer": "Bpk. TAUFAN - YAYASAN TBI",
    "payment_status": "Lunas",
-   "total": 120000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -1915,14 +1596,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 120000.0
   },
   {
    "invoice_no": "INV-ISP-02072026-001",
    "date": "2026-07-02",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 30000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -1936,14 +1617,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 30000.0
   },
   {
    "invoice_no": "INV-ISP-03072026-001",
    "date": "2026-07-03",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 15000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -1957,14 +1638,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 15000.0
   },
   {
    "invoice_no": "INV-ISP-04072026-001",
    "date": "2026-07-04",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 50000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -1978,15 +1659,27 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 50000.0
   },
   {
    "invoice_no": "INV-RA-06072026-001",
    "date": "2026-07-06",
    "customer": "Gobang Fishing",
    "payment_status": "Lunas",
-   "total": 225000.0,
    "items": [
+    {
+     "product": "DRYFIT — 2XL",
+     "category": "JERSEY",
+     "unit": "Pcs",
+     "qty": 1.0,
+     "unit_price": 45000.0,
+     "total": 45000.0,
+     "note": [
+      "DRYFIT — 2XL",
+      ""
+     ]
+    },
     {
      "product": "DRYFIT — S",
      "category": "JERSEY",
@@ -2010,27 +1703,15 @@
       "DRYFIT — XL",
       ""
      ]
-    },
-    {
-     "product": "DRYFIT — 2XL",
-     "category": "JERSEY",
-     "unit": "Pcs",
-     "qty": 1.0,
-     "unit_price": 45000.0,
-     "total": 45000.0,
-     "note": [
-      "DRYFIT — 2XL",
-      ""
-     ]
     }
-   ]
+   ],
+   "total": 225000.0
   },
   {
    "invoice_no": "INV-ISP-08072026-001",
    "date": "2026-07-08",
    "customer": "ACHMAD",
    "payment_status": "Lunas",
-   "total": 90000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -2044,14 +1725,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 90000.0
   },
   {
    "invoice_no": "INV-ISP-09072026-001",
    "date": "2026-07-09",
    "customer": "ANTI",
    "payment_status": "Lunas",
-   "total": 15000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -2077,14 +1758,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 15000.0
   },
   {
    "invoice_no": "INV-ISP-11072026-001",
    "date": "2026-07-11",
    "customer": "SYARIFUDIN, S.Hum (JAPESPA)",
    "payment_status": "Lunas",
-   "total": 3070000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -2110,14 +1791,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 3070000.0
   },
   {
    "invoice_no": "INV-ISP-13072026-002",
    "date": "2026-07-13",
    "customer": "Ibu Yanie - SPS Al Fauzan",
    "payment_status": "Lunas",
-   "total": 35000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -2131,14 +1812,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 35000.0
   },
   {
    "invoice_no": "INV-ISP-13072026-001",
    "date": "2026-07-13",
    "customer": "IPUL JAPESPA",
    "payment_status": "Lunas",
-   "total": 37000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -2164,14 +1845,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 37000.0
   },
   {
    "invoice_no": "INV-ISP-14072026-002",
    "date": "2026-07-14",
    "customer": "Dicky",
    "payment_status": "Lunas",
-   "total": 15000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -2185,14 +1866,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 15000.0
   },
   {
    "invoice_no": "INV-ISP-14072026-001",
    "date": "2026-07-14",
    "customer": "MAMA SALMAN",
    "payment_status": "Lunas",
-   "total": 20000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -2206,14 +1887,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 20000.0
   },
   {
    "invoice_no": "INV-ISP-15072026-003",
    "date": "2026-07-15",
    "customer": "RAHMAT RIFAI S.",
    "payment_status": "Lunas",
-   "total": 552000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -2251,14 +1932,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 552000.0
   },
   {
    "invoice_no": "INV-ISP-15072026-002",
    "date": "2026-07-15",
    "customer": "HERI",
    "payment_status": "Lunas",
-   "total": 47000.0,
    "items": [
     {
      "product": "FLEXY 340gr — M2",
@@ -2272,14 +1953,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 47000.0
   },
   {
    "invoice_no": "INV-ISP-15072026-001",
    "date": "2026-07-15",
    "customer": "Bpk. BAMBANG ( BUBUR AYAM )",
    "payment_status": "Lunas",
-   "total": 20000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -2293,14 +1974,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 20000.0
   },
   {
    "invoice_no": "INV-ISP-16072026-001",
    "date": "2026-07-16",
    "customer": "DZUL",
    "payment_status": "Lunas",
-   "total": 75000.0,
    "items": [
     {
      "product": "FLEXY 340gr — M2",
@@ -2314,14 +1995,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 75000.0
   },
   {
    "invoice_no": "INV-ISP-17072026-004",
    "date": "2026-07-17",
    "customer": "THE O'KITCHENS",
    "payment_status": "Lunas",
-   "total": 55000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -2335,14 +2016,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 55000.0
   },
   {
    "invoice_no": "INV-ISP-17072026-003",
    "date": "2026-07-17",
    "customer": "RIKY MULYANA",
    "payment_status": "Lunas",
-   "total": 30000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -2356,14 +2037,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 30000.0
   },
   {
    "invoice_no": "INV-ISP-17072026-002",
    "date": "2026-07-17",
    "customer": "SUBHAN (SBC OUTDOOR)",
    "payment_status": "Lunas",
-   "total": 10000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -2377,14 +2058,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 10000.0
   },
   {
    "invoice_no": "INV-ISP-17072026-001",
    "date": "2026-07-17",
    "customer": "RIDWAN",
    "payment_status": "Lunas",
-   "total": 54000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -2398,14 +2079,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 54000.0
   },
   {
    "invoice_no": "INV-ISP-18072026-002",
    "date": "2026-07-18",
    "customer": "DINA",
    "payment_status": "Lunas",
-   "total": 43000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -2431,14 +2112,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 43000.0
   },
   {
    "invoice_no": "INV-ISP-18072026-001",
    "date": "2026-07-18",
    "customer": "ACHMAD",
    "payment_status": "Lunas",
-   "total": 30000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -2452,14 +2133,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 30000.0
   },
   {
    "invoice_no": "INV-ISP-20072026-001",
    "date": "2026-07-20",
    "customer": "RAHMAT RIFAI S.",
    "payment_status": "Lunas",
-   "total": 90000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -2473,14 +2154,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 90000.0
   },
   {
    "invoice_no": "INV-RA-21072026-001",
    "date": "2026-07-21",
    "customer": "IBU SITI (TK ABA IV)",
    "payment_status": "Lunas",
-   "total": 2550000.0,
    "items": [
     {
      "product": "SIZE 4 (M ANAK) — PE",
@@ -2518,27 +2199,15 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 2550000.0
   },
   {
    "invoice_no": "INV-ISP-22072026-001",
    "date": "2026-07-22",
    "customer": "OMEN (SEBLAK PRASMANAN)",
    "payment_status": "Lunas",
-   "total": 40000.0,
    "items": [
-    {
-     "product": "FLEXY 240gr — M2",
-     "category": "SPANDUK",
-     "unit": "Pcs",
-     "qty": 2.0,
-     "unit_price": 15000.0,
-     "total": 30000.0,
-     "note": [
-      "1 × 1 m",
-      ""
-     ]
-    },
     {
      "product": "ART CARTON 260gr — A3+",
      "category": "LASER PRINT",
@@ -2550,36 +2219,27 @@
       "ART CARTON 260gr — A3+",
       ""
      ]
-    }
-   ]
-  },
-  {
-   "invoice_no": "INV-ISP-23072026-001",
-   "date": "2026-07-23",
-   "customer": "SYARIFUDIN, S.Hum (JAPESPA)",
-   "payment_status": "Lunas",
-   "total": 13200000.0,
-   "items": [
+    },
     {
      "product": "FLEXY 240gr — M2",
      "category": "SPANDUK",
      "unit": "Pcs",
-     "qty": 400.0,
-     "unit_price": 33000.0,
-     "total": 13200000.0,
+     "qty": 2.0,
+     "unit_price": 15000.0,
+     "total": 30000.0,
      "note": [
-      "3 × 1 m",
+      "1 × 1 m",
       ""
      ]
     }
-   ]
+   ],
+   "total": 40000.0
   },
   {
    "invoice_no": "INV-ISP-24072026-001",
    "date": "2026-07-24",
    "customer": "SRI MARDIANI (Warung Raos)",
    "payment_status": "Lunas",
-   "total": 20000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -2593,14 +2253,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 20000.0
   },
   {
    "invoice_no": "INV-ISP-25072026-002",
    "date": "2026-07-25",
    "customer": "YANUAR (Rumah Kreasi)",
    "payment_status": "Lunas",
-   "total": 27000.0,
    "items": [
     {
      "product": "TRANSFER PAPER — M2",
@@ -2614,14 +2274,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 27000.0
   },
   {
    "invoice_no": "INV-ISP-25072026-001",
    "date": "2026-07-25",
    "customer": "ABIE BAMS",
    "payment_status": "Lunas",
-   "total": 45000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -2635,14 +2295,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 45000.0
   },
   {
    "invoice_no": "INV-ISP-27072026-001",
    "date": "2026-07-27",
    "customer": "DINA",
    "payment_status": "Lunas",
-   "total": 180000.0,
    "items": [
     {
      "product": "FLEXY 340gr — M2",
@@ -2656,14 +2316,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 180000.0
   },
   {
    "invoice_no": "INV-ISP-28072026-001",
    "date": "2026-07-28",
    "customer": "OMEN (SEBLAK PRASMANAN)",
    "payment_status": "Lunas",
-   "total": 40000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -2677,14 +2337,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 40000.0
   },
   {
    "invoice_no": "INV-ISP-29072026-001",
    "date": "2026-07-29",
    "customer": "ALFIAN RIZKI MUNGGARAN",
    "payment_status": "Lunas",
-   "total": 100000.0,
    "items": [
     {
      "product": "FLEXY 300gr — M2",
@@ -2698,14 +2358,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 100000.0
   },
   {
    "invoice_no": "INV-ISP-30072026-001",
    "date": "2026-07-30",
    "customer": "OMEN (SEBLAK PRASMANAN)",
    "payment_status": "Lunas",
-   "total": 40000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -2719,14 +2379,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 40000.0
   },
   {
    "invoice_no": "INV-ISP-31072026-003",
    "date": "2026-07-31",
    "customer": "CV. CAEZAR TEKNIK",
    "payment_status": "Lunas",
-   "total": 360000.0,
    "items": [
     {
      "product": "NCR - 2 RANGKAP — 1/2 F4 (21X16,5CM)",
@@ -2740,14 +2400,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 360000.0
   },
   {
    "invoice_no": "INV-ISP-31072026-002",
    "date": "2026-07-31",
    "customer": "OMEN (SEBLAK PRASMANAN)",
    "payment_status": "Lunas",
-   "total": 45000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -2761,14 +2421,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 45000.0
   },
   {
    "invoice_no": "INV-ISP-31072026-001",
    "date": "2026-07-31",
    "customer": "ANTI",
    "payment_status": "Lunas",
-   "total": 40000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -2794,14 +2454,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 40000.0
   },
   {
    "invoice_no": "INV-ISP-01082026-003",
    "date": "2026-08-01",
    "customer": "SB",
    "payment_status": "Lunas",
-   "total": 75000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -2851,14 +2511,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 75000.0
   },
   {
    "invoice_no": "INV-ISP-01082026-002",
    "date": "2026-08-01",
    "customer": "BAGAS",
    "payment_status": "Lunas",
-   "total": 275000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -2872,14 +2532,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 275000.0
   },
   {
    "invoice_no": "INV-ISP-01082026-001",
    "date": "2026-08-01",
    "customer": "BAGAS",
    "payment_status": "Lunas",
-   "total": 233000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -2917,14 +2577,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 233000.0
   },
   {
    "invoice_no": "INV-RA-03082026-001",
    "date": "2026-08-03",
    "customer": "ALAN (AL FATIH)",
    "payment_status": "Lunas",
-   "total": 3275000.0,
    "items": [
     {
      "product": "DRYFIT — 12",
@@ -2939,14 +2599,14 @@
      ]
     },
     {
-     "product": "DRYFIT — XS",
+     "product": "DRYFIT — 4XL",
      "category": "JERSEY",
      "unit": "Pcs",
      "qty": 1.0,
-     "unit_price": 75000.0,
-     "total": 75000.0,
+     "unit_price": 105000.0,
+     "total": 105000.0,
      "note": [
-      "DRYFIT — XS",
+      "DRYFIT — 4XL",
       ""
      ]
     },
@@ -2975,14 +2635,14 @@
      ]
     },
     {
-     "product": "DRYFIT — 4XL",
+     "product": "DRYFIT — XS",
      "category": "JERSEY",
      "unit": "Pcs",
      "qty": 1.0,
-     "unit_price": 105000.0,
-     "total": 105000.0,
+     "unit_price": 75000.0,
+     "total": 75000.0,
      "note": [
-      "DRYFIT — 4XL",
+      "DRYFIT — XS",
       ""
      ]
     },
@@ -2999,14 +2659,14 @@
      ]
     },
     {
-     "product": "DRILL — XS",
+     "product": "DRILL — 4XL",
      "category": "KEMEJA OUTDOOR",
      "unit": "Set",
      "qty": 1.0,
-     "unit_price": 300000.0,
-     "total": 300000.0,
+     "unit_price": 330000.0,
+     "total": 330000.0,
      "note": [
-      "DRILL — XS",
+      "DRILL — 4XL",
       ""
      ]
     },
@@ -3035,25 +2695,25 @@
      ]
     },
     {
-     "product": "DRILL — 4XL",
+     "product": "DRILL — XS",
      "category": "KEMEJA OUTDOOR",
      "unit": "Set",
      "qty": 1.0,
-     "unit_price": 330000.0,
-     "total": 330000.0,
+     "unit_price": 300000.0,
+     "total": 300000.0,
      "note": [
-      "DRILL — 4XL",
+      "DRILL — XS",
       ""
      ]
     }
-   ]
+   ],
+   "total": 3275000.0
   },
   {
    "invoice_no": "INV-ISP-04082026-001",
    "date": "2026-08-04",
    "customer": "DEDY PURWANTO",
    "payment_status": "Lunas",
-   "total": 20000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -3067,14 +2727,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 20000.0
   },
   {
    "invoice_no": "INV-ISP-05082026-001",
    "date": "2026-08-05",
    "customer": "MAMA SAKA",
    "payment_status": "Lunas",
-   "total": 75000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -3088,14 +2748,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 75000.0
   },
   {
    "invoice_no": "INV-ISP-06082026-001",
    "date": "2026-08-06",
    "customer": "HERI",
    "payment_status": "Lunas",
-   "total": 45000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -3109,14 +2769,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 45000.0
   },
   {
    "invoice_no": "INV-ISP-07082026-001",
    "date": "2026-08-07",
    "customer": "YANUAR (Rumah Kreasi)",
    "payment_status": "Lunas",
-   "total": 27000.0,
    "items": [
     {
      "product": "TRANSFER PAPER — M2",
@@ -3130,14 +2790,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 27000.0
   },
   {
    "invoice_no": "INV-ISP-08082026-001",
    "date": "2026-08-08",
    "customer": "JALAN MAWAR",
    "payment_status": "Lunas",
-   "total": 226000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -3175,14 +2835,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 226000.0
   },
   {
    "invoice_no": "INV-ISP-10082026-001",
    "date": "2026-08-10",
    "customer": "OMEN (SEBLAK PRASMANAN)",
    "payment_status": "Lunas",
-   "total": 32000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -3196,14 +2856,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 32000.0
   },
   {
    "invoice_no": "INV-ISP-11082026-002",
    "date": "2026-08-11",
    "customer": "ACHMAD",
    "payment_status": "Lunas",
-   "total": 90000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -3217,14 +2877,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 90000.0
   },
   {
    "invoice_no": "INV-ISP-11082026-001",
    "date": "2026-08-11",
    "customer": "CV. OPAT SABLON",
    "payment_status": "Lunas",
-   "total": 60000.0,
    "items": [
     {
      "product": "DTF — M2",
@@ -3238,14 +2898,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 60000.0
   },
   {
    "invoice_no": "INV-ISP-12082026-001",
    "date": "2026-08-12",
    "customer": "DINA",
    "payment_status": "Lunas",
-   "total": 45000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -3271,14 +2931,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 45000.0
   },
   {
    "invoice_no": "INV-ISP-13082026-003",
    "date": "2026-08-13",
    "customer": "RINA",
    "payment_status": "Lunas",
-   "total": 95000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -3292,14 +2952,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 95000.0
   },
   {
    "invoice_no": "INV-ISP-13082026-002",
    "date": "2026-08-13",
    "customer": "SULE",
    "payment_status": "Lunas",
-   "total": 40000.0,
    "items": [
     {
      "product": "FLEXY 240gr — 50X75CM",
@@ -3313,14 +2973,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 40000.0
   },
   {
    "invoice_no": "INV-ISP-13082026-001",
    "date": "2026-08-13",
    "customer": "BINTANG",
    "payment_status": "Lunas",
-   "total": 120000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -3334,14 +2994,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 120000.0
   },
   {
    "invoice_no": "INV-ISP-14082026-003",
    "date": "2026-08-14",
    "customer": "MAMA OXY",
    "payment_status": "Lunas",
-   "total": 25000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -3367,14 +3027,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 25000.0
   },
   {
    "invoice_no": "INV-ISP-14082026-002",
    "date": "2026-08-14",
    "customer": "RIDWAN",
    "payment_status": "Lunas",
-   "total": 90000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -3388,14 +3048,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 90000.0
   },
   {
    "invoice_no": "INV-ISP-14082026-001",
    "date": "2026-08-14",
    "customer": "BAMBANG ( BUBUR AYAM )",
    "payment_status": "Lunas",
-   "total": 55000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -3445,14 +3105,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 55000.0
   },
   {
    "invoice_no": "INV-ISP-15082026-004",
    "date": "2026-08-15",
    "customer": "YANIE (SPS AL FAUZAN)",
    "payment_status": "Lunas",
-   "total": 72000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -3466,14 +3126,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 72000.0
   },
   {
    "invoice_no": "INV-ISP-15082026-003",
    "date": "2026-08-15",
    "customer": "MIKA (CV. MUTIARA JAYA BERKAH)",
    "payment_status": "Lunas",
-   "total": 300000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -3499,14 +3159,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 300000.0
   },
   {
    "invoice_no": "INV-ISP-15082026-002",
    "date": "2026-08-15",
    "customer": "RIKY MULYANA",
    "payment_status": "Lunas",
-   "total": 100000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -3544,14 +3204,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 100000.0
   },
   {
    "invoice_no": "INV-ISP-15082026-001",
    "date": "2026-08-15",
    "customer": "IPUL JAPESPA",
    "payment_status": "Lunas",
-   "total": 20000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -3565,14 +3225,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 20000.0
   },
   {
    "invoice_no": "INV-ISP-18082026-001",
    "date": "2026-08-18",
    "customer": "IPUL JAPESPA",
    "payment_status": "Lunas",
-   "total": 100000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -3586,14 +3246,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 100000.0
   },
   {
    "invoice_no": "INV-ISP-19082026-002",
    "date": "2026-08-19",
    "customer": "APRI (KEBAB JOHN)",
    "payment_status": "Lunas",
-   "total": 15000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -3607,14 +3267,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 15000.0
   },
   {
    "invoice_no": "INV-ISP-19082026-001",
    "date": "2026-08-19",
    "customer": "DINA",
    "payment_status": "Lunas",
-   "total": 45000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -3628,68 +3288,14 @@
       ""
      ]
     }
-   ]
-  },
-  {
-   "invoice_no": "INV-ISP-20082026-004",
-   "date": "2026-08-20",
-   "customer": "Bpk. ROY WIJAYA (SIGI)",
-   "payment_status": "Lunas",
-   "total": 8750000.0,
-   "items": [
-    {
-     "product": "SATIN PREMIUM — M2",
-     "category": "BENDERA",
-     "unit": "Pcs",
-     "qty": 50.0,
-     "unit_price": 175000.0,
-     "total": 8750000.0,
-     "note": [
-      "1 × 5 m",
-      ""
-     ]
-    }
-   ]
-  },
-  {
-   "invoice_no": "INV-ISP-20082026-003",
-   "date": "2026-08-20",
-   "customer": "SYARIFUDIN, S.Hum (JAPESPA)",
-   "payment_status": "Belum Bayar",
-   "total": 18218000.0,
-   "items": [
-    {
-     "product": "FLEXY 240gr — M2",
-     "category": "SPANDUK",
-     "unit": "Pcs",
-     "qty": 500.0,
-     "unit_price": 33000.0,
-     "total": 16500000.0,
-     "note": [
-      "3 × 1 m",
-      ""
-     ]
-    },
-    {
-     "product": "SISA PEMBAYARAN 6 AGUSTUS 2026",
-     "category": "Manual / Jasa",
-     "unit": "pcs",
-     "qty": 1.0,
-     "unit_price": 1718000.0,
-     "total": 1718000.0,
-     "note": [
-      "",
-      ""
-     ]
-    }
-   ]
+   ],
+   "total": 45000.0
   },
   {
    "invoice_no": "INV-ISP-20082026-002",
    "date": "2026-08-20",
    "customer": "WULAN MARDIKANINGRUM",
    "payment_status": "Lunas",
-   "total": 30000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -3703,14 +3309,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 30000.0
   },
   {
    "invoice_no": "INV-ISP-20082026-001",
    "date": "2026-08-20",
    "customer": "DINA",
    "payment_status": "Lunas",
-   "total": 30000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -3724,14 +3330,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 30000.0
   },
   {
    "invoice_no": "INV-ISP-21082026-001",
    "date": "2026-08-21",
    "customer": "SULE",
    "payment_status": "Lunas",
-   "total": 15000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -3745,14 +3351,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 15000.0
   },
   {
    "invoice_no": "INV-ISP-22082026-002",
    "date": "2026-08-22",
    "customer": "YANUAR (Rumah Kreasi)",
    "payment_status": "Lunas",
-   "total": 18000.0,
    "items": [
     {
      "product": "TRANSFER PAPER — M2",
@@ -3766,14 +3372,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 18000.0
   },
   {
    "invoice_no": "INV-ISP-22082026-001",
    "date": "2026-08-22",
    "customer": "DANI ADITYA",
    "payment_status": "Lunas",
-   "total": 30000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -3787,14 +3393,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 30000.0
   },
   {
    "invoice_no": "INV-ISP-24082026-001",
    "date": "2026-08-24",
    "customer": "WARUNG SAYUR MH BERKAH",
    "payment_status": "Lunas",
-   "total": 42000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -3808,14 +3414,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 42000.0
   },
   {
    "invoice_no": "INV-ISP-26082026-001",
    "date": "2026-08-26",
    "customer": "RIO",
    "payment_status": "Lunas",
-   "total": 58000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -3841,14 +3447,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 58000.0
   },
   {
    "invoice_no": "INV-ISP-27082026-004",
    "date": "2026-08-27",
    "customer": "MIKA (CV. MUTIARA JAYA BERKAH)",
    "payment_status": "Lunas",
-   "total": 180000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -3862,14 +3468,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 180000.0
   },
   {
    "invoice_no": "INV-ISP-27082026-003",
    "date": "2026-08-27",
    "customer": "RIDWAN",
    "payment_status": "Lunas",
-   "total": 100000.0,
    "items": [
     {
      "product": "PERSEGI — 40MM",
@@ -3895,14 +3501,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 100000.0
   },
   {
    "invoice_no": "INV-ISP-27082026-002",
    "date": "2026-08-27",
    "customer": "PT. DEPOK DISTRIBUSINDO RAYA",
    "payment_status": "Lunas",
-   "total": 790000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -3940,14 +3546,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 790000.0
   },
   {
    "invoice_no": "INV-ISP-27082026-001",
    "date": "2026-08-27",
    "customer": "WINARNI (VENTOUR)",
    "payment_status": "Lunas",
-   "total": 300000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -3961,14 +3567,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 300000.0
   },
   {
    "invoice_no": "INV-ISP-28082026-002",
    "date": "2026-08-28",
    "customer": "GENTHO",
    "payment_status": "Lunas",
-   "total": 45000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -3982,14 +3588,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 45000.0
   },
   {
    "invoice_no": "INV-ISP-28082026-001",
    "date": "2026-08-28",
    "customer": "ANDI SETIAWAN",
    "payment_status": "Lunas",
-   "total": 60000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -4003,14 +3609,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 60000.0
   },
   {
    "invoice_no": "INV-ISP-29082026-001",
    "date": "2026-08-29",
    "customer": "OMEN (SEBLAK PRASMANAN)",
    "payment_status": "Lunas",
-   "total": 130000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -4036,14 +3642,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 130000.0
   },
   {
    "invoice_no": "INV-ISP-31082026-001",
    "date": "2026-08-31",
    "customer": "SYARIFUDIN, S.Hum (JAPESPA)",
    "payment_status": "Belum Bayar",
-   "total": 440000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -4057,14 +3663,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 440000.0
   },
   {
    "invoice_no": "INV-ISP-01092026-002",
    "date": "2026-09-01",
    "customer": "RAMLI",
    "payment_status": "Lunas",
-   "total": 90000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -4090,14 +3696,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 90000.0
   },
   {
    "invoice_no": "INV-ISP-01092026-001",
    "date": "2026-09-01",
    "customer": "RIDWAN",
    "payment_status": "Lunas",
-   "total": 75000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -4111,14 +3717,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 75000.0
   },
   {
    "invoice_no": "INV-ISP-02092026-002",
    "date": "2026-09-02",
    "customer": "RIKY MULYANA",
    "payment_status": "Lunas",
-   "total": 162000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -4144,14 +3750,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 162000.0
   },
   {
    "invoice_no": "INV-ISP-02092026-001",
    "date": "2026-09-02",
    "customer": "YANUAR P.",
    "payment_status": "Lunas",
-   "total": 75000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -4177,14 +3783,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 75000.0
   },
   {
    "invoice_no": "INV-ISP-03092026-002",
    "date": "2026-09-03",
    "customer": "MAYA",
    "payment_status": "Lunas",
-   "total": 130000.0,
    "items": [
     {
      "product": "VINYL QUANTAC — A3+",
@@ -4198,14 +3804,14 @@
       "KISSCUT"
      ]
     }
-   ]
+   ],
+   "total": 130000.0
   },
   {
    "invoice_no": "INV-ISP-03092026-001",
    "date": "2026-09-03",
    "customer": "MERLIS",
    "payment_status": "Lunas",
-   "total": 20000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -4219,14 +3825,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 20000.0
   },
   {
    "invoice_no": "INV-ISP-04092026-001",
    "date": "2026-09-04",
    "customer": "MAYA",
    "payment_status": "Lunas",
-   "total": 26000.0,
    "items": [
     {
      "product": "VINYL QUANTAC — A3+",
@@ -4240,14 +3846,14 @@
       "KISSCUT"
      ]
     }
-   ]
+   ],
+   "total": 26000.0
   },
   {
    "invoice_no": "INV-ISP-05092026-004",
    "date": "2026-09-05",
    "customer": "MITA",
    "payment_status": "Lunas",
-   "total": 40000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -4261,14 +3867,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 40000.0
   },
   {
    "invoice_no": "INV-ISP-05092026-003",
    "date": "2026-09-05",
    "customer": "Ibu Subur",
    "payment_status": "Lunas",
-   "total": 40000.0,
    "items": [
     {
      "product": "CHROMO — A3+",
@@ -4282,14 +3888,14 @@
       "KISSCUT"
      ]
     }
-   ]
+   ],
+   "total": 40000.0
   },
   {
    "invoice_no": "INV-ISP-05092026-002",
    "date": "2026-09-05",
    "customer": "YUNI",
    "payment_status": "Lunas",
-   "total": 8000.0,
    "items": [
     {
      "product": "CHROMO — A3+",
@@ -4303,14 +3909,14 @@
       "KISSCUT"
      ]
     }
-   ]
+   ],
+   "total": 8000.0
   },
   {
    "invoice_no": "INV-ISP-05092026-001",
    "date": "2026-09-05",
    "customer": "HELMA",
    "payment_status": "Lunas",
-   "total": 75000.0,
    "items": [
     {
      "product": "FLEXY 280gr — 60X160CM",
@@ -4324,14 +3930,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 75000.0
   },
   {
    "invoice_no": "INV-ISP-07092026-002",
    "date": "2026-09-07",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 32000.0,
    "items": [
     {
      "product": "CHROMO — A3+",
@@ -4345,14 +3951,14 @@
       "KISSCUT"
      ]
     }
-   ]
+   ],
+   "total": 32000.0
   },
   {
    "invoice_no": "INV-ISP-07092026-001",
    "date": "2026-09-07",
    "customer": "REPUBLIK COSPLAY",
    "payment_status": "Lunas",
-   "total": 116000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -4402,14 +4008,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 116000.0
   },
   {
    "invoice_no": "INV-ISP-08092026-002",
    "date": "2026-09-08",
    "customer": "YANIE (SPS AL FAUZAN)",
    "payment_status": "Lunas",
-   "total": 75000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -4423,14 +4029,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 75000.0
   },
   {
    "invoice_no": "INV-ISP-08092026-001",
    "date": "2026-09-08",
    "customer": "DKM MASJID 'ASHIM BIN UMAR BIN KHOTTOB",
    "payment_status": "Lunas",
-   "total": 180000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -4444,14 +4050,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 180000.0
   },
   {
    "invoice_no": "INV-ISP-09092026-001",
    "date": "2026-09-09",
    "customer": "ZACKSPORT",
    "payment_status": "Lunas",
-   "total": 60000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -4465,14 +4071,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 60000.0
   },
   {
    "invoice_no": "INV-ISP-10092026-002",
    "date": "2026-09-10",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 20000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -4486,14 +4092,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 20000.0
   },
   {
    "invoice_no": "INV-ISP-10092026-001",
    "date": "2026-09-10",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 8000.0,
    "items": [
     {
      "product": "CHROMO — A3+",
@@ -4507,14 +4113,14 @@
       "KISSCUT"
      ]
     }
-   ]
+   ],
+   "total": 8000.0
   },
   {
    "invoice_no": "INV-ISP-11092026-001",
    "date": "2026-09-11",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 40000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -4528,14 +4134,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 40000.0
   },
   {
    "invoice_no": "INV-ISP-12092026-001",
    "date": "2026-09-12",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 15000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -4549,14 +4155,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 15000.0
   },
   {
    "invoice_no": "INV-ISP-14092026-001",
    "date": "2026-09-14",
    "customer": "MERLIS",
    "payment_status": "Lunas",
-   "total": 20000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -4570,14 +4176,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 20000.0
   },
   {
    "invoice_no": "INV-ISP-15092026-001",
    "date": "2026-09-15",
    "customer": "EYANG DINI",
    "payment_status": "Lunas",
-   "total": 60000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -4591,14 +4197,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 60000.0
   },
   {
    "invoice_no": "INV-ISP-16092026-002",
    "date": "2026-09-16",
    "customer": "YANUAR (Rumah Kreasi)",
    "payment_status": "Lunas",
-   "total": 27000.0,
    "items": [
     {
      "product": "TRANSFER PAPER — M2",
@@ -4612,14 +4218,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 27000.0
   },
   {
    "invoice_no": "INV-ISP-16092026-001",
    "date": "2026-09-16",
    "customer": "MERLIS",
    "payment_status": "Lunas",
-   "total": 20000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -4633,14 +4239,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 20000.0
   },
   {
    "invoice_no": "INV-ISP-17092026-002",
    "date": "2026-09-17",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 195000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -4666,14 +4272,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 195000.0
   },
   {
    "invoice_no": "INV-ISP-17092026-001",
    "date": "2026-09-17",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 16000.0,
    "items": [
     {
      "product": "CHROMO — A3+",
@@ -4687,14 +4293,14 @@
       "KISSCUT"
      ]
     }
-   ]
+   ],
+   "total": 16000.0
   },
   {
    "invoice_no": "INV-ISP-18092026-002",
    "date": "2026-09-18",
    "customer": "YUNI",
    "payment_status": "Lunas",
-   "total": 16000.0,
    "items": [
     {
      "product": "CHROMO — A3+",
@@ -4708,14 +4314,14 @@
       "KISSCUT"
      ]
     }
-   ]
+   ],
+   "total": 16000.0
   },
   {
    "invoice_no": "INV-ISP-18092026-001",
    "date": "2026-09-18",
    "customer": "YANUAR (Rumah Kreasi)",
    "payment_status": "Lunas",
-   "total": 36000.0,
    "items": [
     {
      "product": "TRANSFER PAPER — M2",
@@ -4729,14 +4335,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 36000.0
   },
   {
    "invoice_no": "INV-ISP-19092026-003",
    "date": "2026-09-19",
    "customer": "ALFIAN RIZKI MUNGGARAN",
    "payment_status": "Lunas",
-   "total": 60000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -4750,14 +4356,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 60000.0
   },
   {
    "invoice_no": "INV-ISP-19092026-002",
    "date": "2026-09-19",
    "customer": "SRI MARDIANI (Warung Raos)",
    "payment_status": "Lunas",
-   "total": 35000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -4783,14 +4389,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 35000.0
   },
   {
    "invoice_no": "INV-ISP-19092026-001",
    "date": "2026-09-19",
    "customer": "HERI",
    "payment_status": "Lunas",
-   "total": 100000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -4804,14 +4410,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 100000.0
   },
   {
    "invoice_no": "INV-ISP-21092026-001",
    "date": "2026-09-21",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 15000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -4825,14 +4431,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 15000.0
   },
   {
    "invoice_no": "INV-ISP-22092026-001",
    "date": "2026-09-22",
    "customer": "Bpk. Joen",
    "payment_status": "Lunas",
-   "total": 30000.0,
    "items": [
     {
      "product": "VINYL QUANTAC — A3+",
@@ -4846,35 +4452,14 @@
       ""
      ]
     }
-   ]
-  },
-  {
-   "invoice_no": "INV-ISP-23092026-001",
-   "date": "2026-09-23",
-   "customer": "SYARIFUDIN, S.Hum (JAPESPA)",
-   "payment_status": "Belum Bayar",
-   "total": 13200000.0,
-   "items": [
-    {
-     "product": "FLEXY 240gr — M2",
-     "category": "SPANDUK",
-     "unit": "Pcs",
-     "qty": 400.0,
-     "unit_price": 33000.0,
-     "total": 13200000.0,
-     "note": [
-      "3 × 1 m",
-      ""
-     ]
-    }
-   ]
+   ],
+   "total": 30000.0
   },
   {
    "invoice_no": "INV-ISP-24092026-002",
    "date": "2026-09-24",
    "customer": "RIDWAN",
    "payment_status": "Lunas",
-   "total": 40000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -4888,14 +4473,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 40000.0
   },
   {
    "invoice_no": "INV-ISP-24092026-001",
    "date": "2026-09-24",
    "customer": "BINTANG",
    "payment_status": "Lunas",
-   "total": 70000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -4921,14 +4506,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 70000.0
   },
   {
    "invoice_no": "INV-ISP-25092026-003",
    "date": "2026-09-25",
    "customer": "MOH. ROHIM",
    "payment_status": "Lunas",
-   "total": 35000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -4954,14 +4539,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 35000.0
   },
   {
    "invoice_no": "INV-ISP-25092026-002",
    "date": "2026-09-25",
    "customer": "Bpk. Achmad Mahdi - DKM AL MUKHLISHIIN",
    "payment_status": "Lunas",
-   "total": 90000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -4975,14 +4560,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 90000.0
   },
   {
    "invoice_no": "INV-ISP-25092026-001",
    "date": "2026-09-25",
    "customer": "RINA",
    "payment_status": "Lunas",
-   "total": 20000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -4996,14 +4581,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 20000.0
   },
   {
    "invoice_no": "INV-ISP-26092026-003",
    "date": "2026-09-26",
    "customer": "MITA",
    "payment_status": "Lunas",
-   "total": 15000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -5017,14 +4602,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 15000.0
   },
   {
    "invoice_no": "INV-ISP-26092026-002",
    "date": "2026-09-26",
    "customer": "YUNI",
    "payment_status": "Lunas",
-   "total": 16000.0,
    "items": [
     {
      "product": "CHROMO — A3+",
@@ -5038,14 +4623,14 @@
       "KISSCUT"
      ]
     }
-   ]
+   ],
+   "total": 16000.0
   },
   {
    "invoice_no": "INV-ISP-26092026-001",
    "date": "2026-09-26",
    "customer": "TOKO JAYA MAKMUR",
    "payment_status": "Lunas",
-   "total": 150000.0,
    "items": [
     {
      "product": "PERSEGI — 55X17MM",
@@ -5059,14 +4644,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 150000.0
   },
   {
    "invoice_no": "INV-ISP-28092026-002",
    "date": "2026-09-28",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 140000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -5080,14 +4665,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 140000.0
   },
   {
    "invoice_no": "INV-ISP-28092026-001",
    "date": "2026-09-28",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 242000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -5137,14 +4722,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 242000.0
   },
   {
    "invoice_no": "INV-ISP-29092026-003",
    "date": "2026-09-29",
    "customer": "ALFIAN RIZKI MUNGGARAN",
    "payment_status": "Lunas",
-   "total": 136000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -5158,14 +4743,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 136000.0
   },
   {
    "invoice_no": "INV-ISP-29092026-002",
    "date": "2026-09-29",
    "customer": "TENGKU ALFAN",
    "payment_status": "Lunas",
-   "total": 40000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -5179,14 +4764,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 40000.0
   },
   {
    "invoice_no": "INV-ISP-29092026-001",
    "date": "2026-09-29",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 30000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -5200,14 +4785,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 30000.0
   },
   {
    "invoice_no": "INV-ISP-30092026-002",
    "date": "2026-09-30",
    "customer": "APRI (KEBAB JOHN)",
    "payment_status": "Lunas",
-   "total": 225000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -5221,14 +4806,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 225000.0
   },
   {
    "invoice_no": "INV-ISP-30092026-001",
    "date": "2026-09-30",
    "customer": "TETY RAHAYU (SR12)",
    "payment_status": "Lunas",
-   "total": 70000.0,
    "items": [
     {
      "product": "PERSEGI — 40MM",
@@ -5242,14 +4827,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 70000.0
   },
   {
    "invoice_no": "INV-ISP-01102026-002",
    "date": "2026-10-01",
    "customer": "YANIE (SPS AL FAUZAN)",
    "payment_status": "Lunas",
-   "total": 150000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -5275,71 +4860,14 @@
       ""
      ]
     }
-   ]
-  },
-  {
-   "invoice_no": "INV-ISP-01102026-001",
-   "date": "2026-10-01",
-   "customer": "MAN 1 BOGOR",
-   "payment_status": "DP",
-   "total": 82375000.0,
-   "items": [
-    {
-     "product": "SERAGAM OLAHRAGA LAKI-LAKI",
-     "category": "Manual / Jasa",
-     "unit": "pcs",
-     "qty": 171.0,
-     "unit_price": 110000.0,
-     "total": 18810000.0,
-     "note": [
-      "",
-      ""
-     ]
-    },
-    {
-     "product": "SERAGAM OLAHRAGA PEREMPUAN",
-     "category": "Manual / Jasa",
-     "unit": "pcs",
-     "qty": 205.0,
-     "unit_price": 130000.0,
-     "total": 26650000.0,
-     "note": [
-      "",
-      ""
-     ]
-    },
-    {
-     "product": "SERAGAM BATIK LAKI-LAKI",
-     "category": "Manual / Jasa",
-     "unit": "pcs",
-     "qty": 171.0,
-     "unit_price": 90000.0,
-     "total": 15390000.0,
-     "note": [
-      "",
-      ""
-     ]
-    },
-    {
-     "product": "SERAGAM BATIK PEREMPUAN",
-     "category": "Manual / Jasa",
-     "unit": "pcs",
-     "qty": 205.0,
-     "unit_price": 105000.0,
-     "total": 21525000.0,
-     "note": [
-      "",
-      ""
-     ]
-    }
-   ]
+   ],
+   "total": 150000.0
   },
   {
    "invoice_no": "INV-ISP-02102026-001",
    "date": "2026-10-02",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 15000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -5353,14 +4881,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 15000.0
   },
   {
    "invoice_no": "INV-ISP-03102026-001",
    "date": "2026-10-03",
    "customer": "ALFIAN RIZKI MUNGGARAN",
    "payment_status": "Lunas",
-   "total": 7000.0,
    "items": [
     {
      "product": "KARTON LINEN 260gr — A3+",
@@ -5374,14 +4902,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 7000.0
   },
   {
    "invoice_no": "INV-ISP-05102026-003",
    "date": "2026-10-05",
    "customer": "YANUAR (Rumah Kreasi)",
    "payment_status": "Lunas",
-   "total": 18000.0,
    "items": [
     {
      "product": "TRANSFER PAPER — M2",
@@ -5395,14 +4923,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 18000.0
   },
   {
    "invoice_no": "INV-ISP-05102026-002",
    "date": "2026-10-05",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 70000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -5440,14 +4968,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 70000.0
   },
   {
    "invoice_no": "INV-ISP-05102026-001",
    "date": "2026-10-05",
    "customer": "YUNI",
    "payment_status": "Lunas",
-   "total": 16000.0,
    "items": [
     {
      "product": "CHROMO — A3+",
@@ -5461,14 +4989,14 @@
       "KISSCUT"
      ]
     }
-   ]
+   ],
+   "total": 16000.0
   },
   {
    "invoice_no": "INV-ISP-06102026-002",
    "date": "2026-10-06",
    "customer": "OMEN (SEBLAK PRASMANAN)",
    "payment_status": "Lunas",
-   "total": 35000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -5494,14 +5022,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 35000.0
   },
   {
    "invoice_no": "INV-ISP-06102026-001",
    "date": "2026-10-06",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 20000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -5515,14 +5043,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 20000.0
   },
   {
    "invoice_no": "INV-ISP-07102026-003",
    "date": "2026-10-07",
    "customer": "RINA",
    "payment_status": "Lunas",
-   "total": 360000.0,
    "items": [
     {
      "product": "NCR - 2 RANGKAP — 1/3 F4 (21X11CM)",
@@ -5536,14 +5064,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 360000.0
   },
   {
    "invoice_no": "INV-ISP-07102026-002",
    "date": "2026-10-07",
    "customer": "YANIE (SPS AL FAUZAN)",
    "payment_status": "Lunas",
-   "total": 60000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -5557,14 +5085,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 60000.0
   },
   {
    "invoice_no": "INV-ISP-07102026-001",
    "date": "2026-10-07",
    "customer": "BUDI ARIYANTO (Crepes Monster)",
    "payment_status": "Lunas",
-   "total": 40000.0,
    "items": [
     {
      "product": "FLEXY 240gr — M2",
@@ -5590,14 +5118,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 40000.0
   },
   {
    "invoice_no": "INV-ISP-08102026-001",
    "date": "2026-10-08",
    "customer": "QOMARRY CAKE",
    "payment_status": "Lunas",
-   "total": 48000.0,
    "items": [
     {
      "product": "CHROMO — A3+",
@@ -5611,14 +5139,14 @@
       "KISSCUT"
      ]
     }
-   ]
+   ],
+   "total": 48000.0
   },
   {
    "invoice_no": "INV-ISP-09102026-002",
    "date": "2026-10-09",
    "customer": "CHAKRA",
    "payment_status": "Lunas",
-   "total": 20000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -5632,14 +5160,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 20000.0
   },
   {
    "invoice_no": "INV-ISP-09102026-001",
    "date": "2026-10-09",
    "customer": "CHAKRA",
    "payment_status": "Lunas",
-   "total": 75000.0,
    "items": [
     {
      "product": "FLEXY 280gr — 60X160CM",
@@ -5653,14 +5181,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 75000.0
   },
   {
    "invoice_no": "INV-ISP-10102026-003",
    "date": "2026-10-10",
    "customer": "YANUAR (Rumah Kreasi)",
    "payment_status": "Lunas",
-   "total": 9000.0,
    "items": [
     {
      "product": "TRANSFER PAPER — M2",
@@ -5674,14 +5202,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 9000.0
   },
   {
    "invoice_no": "INV-ISP-10102026-002",
    "date": "2026-10-10",
    "customer": "SB",
    "payment_status": "Lunas",
-   "total": 15000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -5695,14 +5223,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 15000.0
   },
   {
    "invoice_no": "INV-ISP-10102026-001",
    "date": "2026-10-10",
    "customer": "Bpk. Joen",
    "payment_status": "Lunas",
-   "total": 50000.0,
    "items": [
     {
      "product": "ART CARTON 260gr — 9X5,5CM - 1 Muka",
@@ -5716,14 +5244,14 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 50000.0
   },
   {
    "invoice_no": "INV-ISP-14102026-003",
    "date": "2026-10-14",
    "customer": "Pelanggan Umum",
    "payment_status": "Lunas",
-   "total": 50000.0,
    "items": [
     {
      "product": "SAMPEL JERSEY",
@@ -5737,27 +5265,15 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 50000.0
   },
   {
    "invoice_no": "INV-ISP-14102026-002",
    "date": "2026-10-14",
    "customer": "DEA SALON",
    "payment_status": "Lunas",
-   "total": 40000.0,
    "items": [
-    {
-     "product": "FLEXY 280gr — M2",
-     "category": "SPANDUK",
-     "unit": "Pcs",
-     "qty": 1.0,
-     "unit_price": 25000.0,
-     "total": 25000.0,
-     "note": [
-      "1.5 × 0.8 m",
-      ""
-     ]
-    },
     {
      "product": "BIAYA SETTING",
      "category": "Manual / Jasa",
@@ -5769,15 +5285,27 @@
       "",
       ""
      ]
+    },
+    {
+     "product": "FLEXY 280gr — M2",
+     "category": "SPANDUK",
+     "unit": "Pcs",
+     "qty": 1.0,
+     "unit_price": 25000.0,
+     "total": 25000.0,
+     "note": [
+      "1.5 × 0.8 m",
+      ""
+     ]
     }
-   ]
+   ],
+   "total": 40000.0
   },
   {
    "invoice_no": "INV-ISP-14102026-001",
    "date": "2026-10-14",
    "customer": "YUNI",
    "payment_status": "Lunas",
-   "total": 16000.0,
    "items": [
     {
      "product": "CHROMO — A3+",
@@ -5791,14 +5319,14 @@
       "KISSCUT"
      ]
     }
-   ]
+   ],
+   "total": 16000.0
   },
   {
    "invoice_no": "INV-ISP-16102026-002",
    "date": "2026-10-16",
    "customer": "MERLIS",
    "payment_status": "Lunas",
-   "total": 20000.0,
    "items": [
     {
      "product": "FLEXY 280gr — M2",
@@ -5812,39 +5340,15 @@
       ""
      ]
     }
-   ]
+   ],
+   "total": 20000.0
   },
   {
    "invoice_no": "INV-ISP-17102026-003",
    "date": "2026-10-17",
    "customer": "DPC PKS CENGKARENG",
    "payment_status": "Belum Bayar",
-   "total": 2510000.0,
    "items": [
-    {
-     "product": "JERSEY Uk. L",
-     "category": "Manual / Jasa",
-     "unit": "pcs",
-     "qty": 11.0,
-     "unit_price": 70000.0,
-     "total": 770000.0,
-     "note": [
-      "",
-      ""
-     ]
-    },
-    {
-     "product": "JERSEY Uk. XL",
-     "category": "Manual / Jasa",
-     "unit": "pcs",
-     "qty": 19.0,
-     "unit_price": 70000.0,
-     "total": 1330000.0,
-     "note": [
-      "",
-      ""
-     ]
-    },
     {
      "product": "JERSEY Uk. 2XL",
      "category": "Manual / Jasa",
@@ -5868,35 +5372,14 @@
       "",
       ""
      ]
-    }
-   ]
-  },
-  {
-   "invoice_no": "INV-ISP-17102026-002",
-   "date": "2026-10-17",
-   "customer": "DPD PKS JAKARTA BARAT",
-   "payment_status": "Belum Bayar",
-   "total": 940000.0,
-   "items": [
-    {
-     "product": "JERSEY Uk. M",
-     "category": "Manual / Jasa",
-     "unit": "pcs",
-     "qty": 4.0,
-     "unit_price": 75000.0,
-     "total": 300000.0,
-     "note": [
-      "",
-      ""
-     ]
     },
     {
      "product": "JERSEY Uk. L",
      "category": "Manual / Jasa",
      "unit": "pcs",
-     "qty": 2.0,
-     "unit_price": 75000.0,
-     "total": 150000.0,
+     "qty": 11.0,
+     "unit_price": 70000.0,
+     "total": 770000.0,
      "note": [
       "",
       ""
@@ -5906,14 +5389,23 @@
      "product": "JERSEY Uk. XL",
      "category": "Manual / Jasa",
      "unit": "pcs",
-     "qty": 3.0,
-     "unit_price": 75000.0,
-     "total": 225000.0,
+     "qty": 19.0,
+     "unit_price": 70000.0,
+     "total": 1330000.0,
      "note": [
       "",
       ""
      ]
-    },
+    }
+   ],
+   "total": 2510000.0
+  },
+  {
+   "invoice_no": "INV-ISP-17102026-002",
+   "date": "2026-10-17",
+   "customer": "DPD PKS JAKARTA BARAT",
+   "payment_status": "Belum Bayar",
+   "items": [
     {
      "product": "JERSEY Uk. 2XL",
      "category": "Manual / Jasa",
@@ -5937,35 +5429,26 @@
       "",
       ""
      ]
-    }
-   ]
-  },
-  {
-   "invoice_no": "INV-ISP-17102026-001",
-   "date": "2026-10-17",
-   "customer": "DPD PKS JAKARTA PUSAT & JAKARTA UTARA",
-   "payment_status": "Belum Bayar",
-   "total": 3640000.0,
-   "items": [
+    },
     {
-     "product": "JERSEY Uk. M",
+     "product": "JERSEY Uk. L",
      "category": "Manual / Jasa",
      "unit": "pcs",
-     "qty": 4.0,
-     "unit_price": 70000.0,
-     "total": 280000.0,
+     "qty": 2.0,
+     "unit_price": 75000.0,
+     "total": 150000.0,
      "note": [
       "",
       ""
      ]
     },
     {
-     "product": "JERSEY Uk. L",
+     "product": "JERSEY Uk. M",
      "category": "Manual / Jasa",
      "unit": "pcs",
-     "qty": 12.0,
-     "unit_price": 70000.0,
-     "total": 840000.0,
+     "qty": 4.0,
+     "unit_price": 75000.0,
+     "total": 300000.0,
      "note": [
       "",
       ""
@@ -5975,14 +5458,23 @@
      "product": "JERSEY Uk. XL",
      "category": "Manual / Jasa",
      "unit": "pcs",
-     "qty": 20.0,
-     "unit_price": 70000.0,
-     "total": 1400000.0,
+     "qty": 3.0,
+     "unit_price": 75000.0,
+     "total": 225000.0,
      "note": [
       "",
       ""
      ]
-    },
+    }
+   ],
+   "total": 940000.0
+  },
+  {
+   "invoice_no": "INV-ISP-17102026-001",
+   "date": "2026-10-17",
+   "customer": "DPD PKS JAKARTA PUSAT & JAKARTA UTARA",
+   "payment_status": "Belum Bayar",
+   "items": [
     {
      "product": "JERSEY Uk. 2XL",
      "category": "Manual / Jasa",
@@ -6006,8 +5498,45 @@
       "",
       ""
      ]
+    },
+    {
+     "product": "JERSEY Uk. L",
+     "category": "Manual / Jasa",
+     "unit": "pcs",
+     "qty": 12.0,
+     "unit_price": 70000.0,
+     "total": 840000.0,
+     "note": [
+      "",
+      ""
+     ]
+    },
+    {
+     "product": "JERSEY Uk. M",
+     "category": "Manual / Jasa",
+     "unit": "pcs",
+     "qty": 4.0,
+     "unit_price": 70000.0,
+     "total": 280000.0,
+     "note": [
+      "",
+      ""
+     ]
+    },
+    {
+     "product": "JERSEY Uk. XL",
+     "category": "Manual / Jasa",
+     "unit": "pcs",
+     "qty": 20.0,
+     "unit_price": 70000.0,
+     "total": 1400000.0,
+     "note": [
+      "",
+      ""
+     ]
     }
-   ]
+   ],
+   "total": 3640000.0
   }
  ]
 }
